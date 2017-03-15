@@ -81,7 +81,7 @@ async.timesSeries(end - start + 1, (inc, next) => {
       data[start + index] = result;
     });
     try {
-      jsonfile.writeFileSync('data.json', result, {spaces: 2});
+      jsonfile.writeFileSync('data.json', data, {spaces: 2});
     } catch (error) {
       console.log('Error creating `data.json`. Please try again.');
       console.log(error);
