@@ -22,7 +22,10 @@ function requestId(id, cb) {
     if (!table.length) {
       cb(new Error('Could not find the table of data.'));
     } else {
-      parseTable($, table, cb);
+      cb(null, {
+        heading: heading.text(),
+        table: parseTable($, table)
+      });
     }
   });
 }
@@ -60,7 +63,7 @@ function parseTable($, table, cb) {
     data.push(datum);
   });
 
-  cb(null, data);
+  return data;
 }
 
 const [start, end] = [671, 1103];
