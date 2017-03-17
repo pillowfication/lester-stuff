@@ -1,5 +1,4 @@
 const jsonfile = require('jsonfile');
-const _ = require('lodash');
 const async = require('async');
 const request = require('request');
 const cheerio = require('cheerio');
@@ -51,12 +50,12 @@ function parseTable($, table, cb) {
     let td = 0;
     thData.forEach(th => {
       if (th.span === 1) {
-        datum[th.text] = tds.eq(td).text();
+        datum[th.text] = tds.eq(td).text().trim();
         ++td;
       } else {
         datum[th.text] = [];
         for (let inc = 0; inc < th.span; ++inc)
-          datum[th.text].push(tds.eq(td + inc).text());
+          datum[th.text].push(tds.eq(td + inc).text().trim());
         td += th.span;
       }
     });
