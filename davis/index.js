@@ -23,7 +23,7 @@ function getTable(html) {
   if (table.get().length === 0)
     return null;
 
-  const data = {};
+  const data = {id: null};
   table.find('tr').each((index, row) => {
     const first = $(row).children().first();
     data[first.text()] = first.next().text();
@@ -36,7 +36,11 @@ function getId(id, cb) {
   getPage(id)
     .then(html => {
       const table = getTable(html);
-      return table ? cb(null, table) : cb(null, null);
+      if (table) {
+        table.id = id;
+        return cb(null, table);
+      }
+      return cb(null, null);
     })
     .catch(error =>
       cb(error)
