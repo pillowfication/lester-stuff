@@ -1,81 +1,123 @@
 const fs = require('fs');
 const path = require('path');
-const async = require('async');
 const request = require('request');
 const cheerio = require('cheerio');
 
-const BASE_URL = 'http://directory.ucdavis.edu/search/directory_results.shtml?id=';
-const OUT = path.join(__dirname, 'data.json');
+const BASE_URL = 'http://directory.ucdavis.edu/search/directory_results.shtml';
+const OUT = 'data.json';
+
+function pad(id) {
+  return ('00000000' + id).slice(-8);
+}
 
 function getPage(id) {
   return new Promise((resolve, reject) => {
     request(
-      {url: `${BASE_URL}${id}`},
+      {url: `${BASE_URL}?id=${pad(id)}`},
       (error, response, body) =>
-        error ? reject(error) : resolve(body)
+        error || !body
+          ? reject(error || new Error('Could not load page.'))
+          : resolve(body)
     );
   });
 }
 
 function getTable(html) {
-  const $ = cheerio.load(html);
-  const table = $('#directory_results_wrapper > table').first();
-  if (table.get().length === 0)
-    return null;
+  return new Promise((resolve, reject) => {
+    try {
+      const $ = cheerio.load(html);
+      const table = $('#directory_results_wrapper > table').first();
+      if (table.get().length === 0)
+        return resolve(null);
 
-  const data = {id: null};
-  table.find('tr').each((index, row) => {
-    const first = $(row).children().first();
-    data[first.text()] = first.next().text();
-  });
-  return data;
-}
-
-function getId(id, cb) {
-  id = ('00000000' + id).slice(-8);
-  getPage(id)
-    .then(html => {
-      const table = getTable(html);
-      if (table) {
-        table.id = id;
-        return cb(null, table);
-      }
-      return cb(null, null);
-    })
-    .catch(error =>
-      cb(error)
-    );
-}
-
-function writeChunk(id, count, cb) {
-  console.log(`GETTING ${id}-${id+count-1}`);
-  async.times(count,
-    (n, next) =>
-      getId(id + n, next),
-    (err, results) => {
-      if (err)
-        return cb(err);
-      results.forEach(user => {
-        if (user)
-          fs.appendFileSync(OUT, JSON.stringify(user)+'\n');
+      const data = {};
+      table.find('tr').each((index, row) => {
+        const first = $(row).children().first();
+        data[first.text()] = first.next().text();
       });
-      cb(null);
+      resolve(data);
+    } catch (error) {
+      reject(error);
     }
-  );
+  });
 }
 
-function scrape(start = 0, end = 99999999, step = 20) {
-  let index = start;
-  const now = Date.now();
-  async.whilst(
-    () => { return index < end; },
-    (next) => {
-      console.log(`TIME: ${Date.now() - now}`);
-      writeChunk(index, step, next);
-      index += step;
-    },
-    console.log.bind(console)
-  )
+function getIds(start, count) {
+  return new Promise((resolve, reject) => {
+    const results = [];
+    let finished = 0;
+
+    for (let index = 0; index < count; ++index)
+      getPage(start + index)
+        .then(getTable)
+        .then(data => {
+          results[index] = data;
+          if (++finished === count)
+            resolve(results);
+        })
+        .catch(reject);
+  });
 }
 
-scrape();
+function scrape(start = 0, end = 99999999, chunk = 20, output = OUT) {
+  output = path.join(__dirname, output);
+
+  const keys = {};
+  function cleanData(id, data) {
+    const clean = {id};
+    for (const key in data) {
+      const cleanKey = key.toLowerCase().replace(/[^a-z]+/g, '');
+      (keys[cleanKey] || (keys[cleanKey] = new Set())).add(key);
+      clean[cleanKey] = data[key];
+    }
+    return clean;
+  }
+
+  (function _scrape(curr) {
+    if (curr > end) {
+      console.log('All done here!');
+      console.log(keys);
+      return;
+    }
+
+    let _chunk = Math.max(1, Math.min(chunk, end - curr));
+    console.log(`Getting: ${pad(curr)} - ${pad(curr + _chunk - 1)}`);
+
+    getIds(curr, _chunk)
+      .then(results => {
+        let found = [];
+        for (let index = 0; index < _chunk; ++index) {
+          const data = results[index];
+          if (data)
+            found.push(cleanData(curr + index, data));
+        }
+        console.log(found.length
+          ? `Found ids: ${found.map(data => data.id).join(', ')}`
+          : `Found ids: (none)`
+        );
+
+        fs.appendFileSync(output,
+          found.map(data => JSON.stringify(data) + '\n').join('')
+        );
+
+        _scrape(curr + _chunk);
+      })
+      .catch(error => {
+        console.log(error);
+        _scrape(curr);
+      });
+  })(start);
+}
+
+if (require.main === module) {
+  const args = process.argv.slice(2);
+  const start = process.argv[2] && +process.argv[2];
+  const end = process.argv[3] && +process.argv[3];
+  const chunk = process.argv[4] && +process.argv[4];
+  const output = process.argv[5];
+  scrape(start, end, chunk, output);
+}
+
+module.exports = {
+  getPage, getTable, getIds, scrape
+};
