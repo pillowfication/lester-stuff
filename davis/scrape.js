@@ -4,7 +4,7 @@ const request = require('request');
 const cheerio = require('cheerio');
 
 const BASE_URL = 'http://directory.ucdavis.edu/search/directory_results.shtml';
-const OUT = 'data.json';
+const OUTPUT = 'data.json';
 
 function pad(id) {
   return ('00000000' + id).slice(-8);
@@ -59,7 +59,7 @@ function getIds(start, count) {
   });
 }
 
-function scrape(start = 0, end = 99999999, chunk = 20, output = OUT) {
+function scrape(start = 0, end = 99999999, chunk = 20, output = OUTPUT) {
   output = path.join(__dirname, output);
 
   const keys = {};
