@@ -59,7 +59,7 @@ function getIds(start, count) {
   });
 }
 
-function scrape(start = 0, end = 99999999, chunk = 20, output = OUTPUT) {
+function scrape(start = 0, end = 99999999, chunk = 100, output = OUTPUT) {
   output = path.join(__dirname, output);
 
   const keys = {};
