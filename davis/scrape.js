@@ -5,7 +5,7 @@ const cheerio = require('cheerio')
 const moment = require('moment')
 
 const BASE_URL = 'http://directory.ucdavis.edu/search/directory_results.shtml'
-const OUTPUT = path.join(__dirname, 'data', `${moment().format('YYYY-MM-DD_HH-mm')}.json`)
+const OUTPUT = path.join('data', `${moment().format('YYYY-MM-DD_HH-mm')}.json`)
 
 function pad (id) {
   return ('00000000' + id).slice(-8)
@@ -65,6 +65,8 @@ function getIds (start, count) {
 
 function scrape (start = 0, end = 99999999, chunk = 100, output = OUTPUT) {
   output = path.join(__dirname, output)
+  console.log(`Scraping to file: ${output}`)
+  fs.writeFileSync(output, '')
 
   const keys = {}
   function cleanData (id, data) {
