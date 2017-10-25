@@ -1,4 +1,6 @@
 *.log
 /node_modules
 
-!/davis/data/*.log
+/davis/data/*.json
+/davis/data/*.tag
+/davis/data/*.csv
