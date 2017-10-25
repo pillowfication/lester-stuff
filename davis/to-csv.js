@@ -1,20 +1,18 @@
+const util = require('util')
 const fs = require('fs')
 const path = require('path')
 const readline = require('readline')
 const csvStringify = require('csv-stringify')
 
-function toCsv (input, output) {
-  if (!input) {
-    throw new Error('No input provided')
+function toCsv (inputPath, cb) {
+  if (!inputPath) {
+    return cb(new Error('No input provided'))
   }
-  input = path.join(__dirname, input)
-  const inputParse = path.parse(input)
-  output = output
-    ? path.join(__dirname, output)
-    : path.join(inputParse.dir, `${inputParse.name}.csv`)
+  const inputParse = path.parse(inputPath)
+  const outputPath = path.join(inputParse.dir, `${inputParse.name}.csv`)
 
   const lineReader = readline.createInterface({
-    input: fs.createReadStream(input)
+    input: fs.createReadStream(inputPath)
   })
 
   const columns = { id: 'id' }
@@ -31,19 +29,13 @@ function toCsv (input, output) {
   lineReader.on('close', () => {
     csvStringify(csv, { header: true, columns }, (error, csv) => {
       if (error) {
-        throw error
+        cb(new Error('No input provided'))
+      } else {
+        fs.writeFileSync(outputPath, csv)
+        cb(null, outputPath)
       }
-      fs.writeFileSync(output, csv)
     })
   })
 }
 
-if (require.main === module) {
-  const input = process.argv[2]
-  const output = process.argv[3]
-  toCsv(input, output)
-}
-
-module.exports = {
-  toCsv
-}
+module.exports = util.promisify(toCsv)

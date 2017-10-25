@@ -6,6 +6,9 @@ const request = require('request')
 const cheerio = require('cheerio')
 const moment = require('moment')
 
+const writeFile = util.promisify(fs.writeFile)
+const appendFile = util.promisify(fs.appendFile)
+
 const BASE_URL = 'http://directory.ucdavis.edu/search/directory_results.shtml'
 const NOW = moment().format('YYYY-MM-DD_HH-mm')
 const OUTPUT = path.join(__dirname, 'data', `${NOW}.json`)
@@ -67,7 +70,7 @@ async function scrape (start = 0, end = 99999999, chunk = 500, outputPath = OUTP
   logger.info(`  chunk: ${chunk}`)
   logger.info('==========')
 
-  await fs.writeFile(outputPath, '')
+  await writeFile(outputPath, '')
 
   const keys = {}
   function cleanData (data) {
@@ -104,7 +107,7 @@ async function scrape (start = 0, end = 99999999, chunk = 500, outputPath = OUTP
       : `Found ids: (none)`
     )
 
-    await fs.appendFile(outputPath,
+    await appendFile(outputPath,
       found.map(data => JSON.stringify(data) + '\n').join('')
     )
   }
@@ -121,20 +124,11 @@ async function scrape (start = 0, end = 99999999, chunk = 500, outputPath = OUTP
     })(),
     logFile: logPath
   }
-  await fs.writeFile(outputPath + '.tag',
+  await writeFile(outputPath + '.tag',
     JSON.stringify(metaData, null, 2) + '\n'
   )
 
   logger.info('Done.')
-}
-
-if (require.main === module) {
-  const start = process.argv[2] && +process.argv[2]
-  const end = process.argv[3] && +process.argv[3]
-  const chunk = process.argv[4] && +process.argv[4]
-  const outputPath = process.argv[5]
-  const logPath = process.argv[6]
-  scrape(start, end, chunk, outputPath, logPath)
 }
 
 module.exports = scrape
