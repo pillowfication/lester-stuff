@@ -1,129 +1,140 @@
+const util = require('util')
 const fs = require('fs')
 const path = require('path')
+const winston = require('winston')
 const request = require('request')
 const cheerio = require('cheerio')
 const moment = require('moment')
 
 const BASE_URL = 'http://directory.ucdavis.edu/search/directory_results.shtml'
-const OUTPUT = path.join('data', `${moment().format('YYYY-MM-DD_HH-mm')}.json`)
+const NOW = moment().format('YYYY-MM-DD_HH-mm')
+const OUTPUT = path.join(__dirname, 'data', `${NOW}.json`)
+const LOGFILE = path.join(__dirname, 'data', `${NOW}.log`)
 
 function pad (id) {
   return ('00000000' + id).slice(-8)
 }
 
-function getPage (id) {
+function requestGet (url) {
   return new Promise((resolve, reject) => {
-    request(
-      { url: `${BASE_URL}?id=${pad(id)}` },
-      (error, response, body) =>
-        error || !body
-          ? reject(error || new Error('Could not load page.'))
-          : resolve(body)
-    )
-  })
-}
-
-function getTable (html) {
-  return new Promise((resolve, reject) => {
-    try {
-      const $ = cheerio.load(html)
-      const table = $('#directory_results_wrapper > table').first()
-      if (table.get().length === 0) {
-        return resolve(null)
+    request.get(url, (error, response, body) => {
+      if (error || !body) {
+        reject(error || new Error(`Could not load url: ${url}`))
+      } else {
+        resolve(body)
       }
-
-      const data = {}
-      table.find('tr').each((index, row) => {
-        const first = $(row).children().first()
-        data[first.text()] = first.next().text()
-      })
-      resolve(data)
-    } catch (error) {
-      reject(error)
-    }
+    })
   })
 }
 
-function getIds (start, count) {
-  return new Promise((resolve, reject) => {
-    const results = []
-    let finished = 0
+async function getPage (id) {
+  const html = await requestGet(`${BASE_URL}?id=${pad(id)}`)
+  const $ = cheerio.load(html)
 
-    for (let index = 0; index < count; ++index) {
-      getPage(start + index)
-        .then(getTable)
-        .then(data => {
-          results[index] = data
-          if (++finished === count) {
-            resolve(results)
-          }
-        })
-        .catch(reject)
-    }
+  const table = $('#directory_results_wrapper > table').first()
+  if (table.get().length === 0) {
+    // `null` means `id` was not found
+    return null
+  }
+
+  const data = { id }
+  table.find('tr').each((index, row) => {
+    const first = $(row).children().first()
+    data[first.text()] = first.next().text()
   })
+
+  return data
 }
 
-function scrape (start = 0, end = 99999999, chunk = 100, output = OUTPUT) {
-  output = path.join(__dirname, output)
-  console.log(`Scraping to file: ${output}`)
-  fs.writeFileSync(output, '')
+async function getPages (start, count) {
+  const promises = []
+  for (let index = 0; index < count; ++index) {
+    promises[index] = getPage(start + index)
+  }
+
+  return Promise.all(promises)
+}
+
+async function scrape (start = 0, end = 99999999, chunk = 500, outputPath = OUTPUT, logPath = LOGFILE) {
+  const startTime = Date.now()
+  const logger = new (winston.Logger)({
+    transports: [ new (winston.transports.File)({ filename: logPath }) ]
+  })
+
+  logger.info(`Scraping to file: ${outputPath}`)
+  logger.info(`  start: ${start}`)
+  logger.info(`  end:   ${end}`)
+  logger.info(`  chunk: ${chunk}`)
+  logger.info('==========')
+
+  await fs.writeFile(outputPath, '')
 
   const keys = {}
-  function cleanData (id, data) {
-    const clean = { id }
+  function cleanData (data) {
+    const clean = {}
     for (const key in data) {
       const cleanKey = key.toLowerCase().replace(/[^a-z]+/g, '')
-      ;(keys[cleanKey] || (keys[cleanKey] = new Set())).add(key)
+      let keySet = keys[cleanKey]
+      if (!keySet) {
+        keySet = keys[cleanKey] = new Set()
+      }
+      keySet.add(key)
       clean[cleanKey] = data[key]
     }
     return clean
   }
 
-  ;(function _scrape (curr) {
-    if (curr > end) {
-      console.log('All done here!')
-      console.log(keys)
-      return
-    }
+  for (let currentId = start; currentId <= end; currentId += chunk) {
+    let _chunk = Math.max(1, Math.min(chunk, end - currentId))
+    logger.info(`Scraping: ${pad(currentId)} - ${pad(currentId + _chunk - 1)}`)
 
-    let _chunk = Math.max(1, Math.min(chunk, end - curr))
-    console.log(`Getting: ${pad(curr)} - ${pad(curr + _chunk - 1)}`)
+    let results
+    do {
+      try {
+        results = await getPages(currentId, _chunk)
+      } catch (error) {
+        logger.error('Error scraping pages', error)
+        logger.info('Trying again')
+      }
+    } while (!results)
 
-    getIds(curr, _chunk)
-      .then(results => {
-        let found = []
-        for (let index = 0; index < _chunk; ++index) {
-          const data = results[index]
-          if (data) {
-            found.push(cleanData(curr + index, data))
-          }
-        }
-        console.log(found.length
-          ? `Found ids: ${found.map(data => data.id).join(', ')}`
-          : `Found ids: (none)`
-        )
+    const found = results.filter(x => x).map(cleanData)
+    logger.info(found.length
+      ? `Found ids: ${found.map(data => data.id).join(', ')}`
+      : `Found ids: (none)`
+    )
 
-        fs.appendFileSync(output,
-          found.map(data => JSON.stringify(data) + '\n').join('')
-        )
+    await fs.appendFile(outputPath,
+      found.map(data => JSON.stringify(data) + '\n').join('')
+    )
+  }
 
-        _scrape(curr + _chunk)
-      })
-      .catch(error => {
-        console.log(error)
-        _scrape(curr)
-      })
-  })(start)
+  const metaData = {
+    startTime,
+    endTime: Date.now(),
+    keys: (() => {
+      const _keys = {}
+      for (const key in keys) {
+        _keys[key] = Array.from(keys[key])
+      }
+      return _keys
+    })(),
+    logFile: logPath
+  }
+  await fs.writeFile(outputPath + '.tag',
+    JSON.stringify(metaData, null, 2) + '\n'
+  )
+
+  logger.info('Done.')
 }
 
 if (require.main === module) {
   const start = process.argv[2] && +process.argv[2]
   const end = process.argv[3] && +process.argv[3]
   const chunk = process.argv[4] && +process.argv[4]
-  const output = process.argv[5]
-  scrape(start, end, chunk, output)
+  const outputPath = process.argv[5]
+  const logPath = process.argv[6]
+  scrape(start, end, chunk, outputPath, logPath)
 }
 
-module.exports = {
-  getPage, getTable, getIds, scrape
-}
+module.exports = scrape
