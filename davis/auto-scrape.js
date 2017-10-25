@@ -9,7 +9,7 @@ const scrapeEnd = 2000000
 const scrapeChunk = 100
 
 const autoScrape = new CronJob('0 0 * * 1,3,5', () => {
-  const now = moment().format('YYYY-MM-DD_HH-mm')
+  const now = moment().format('YYYY-MM-DD')
   console.log(`Scraping for: ${now}`)
   const outputPath = path.join(__dirname, 'data', now + '.json')
   console.log(`  Output: ${outputPath}`)
