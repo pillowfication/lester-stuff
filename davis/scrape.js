@@ -1,18 +1,13 @@
 const util = require('util')
 const fs = require('fs')
-const path = require('path')
 const winston = require('winston')
 const request = require('request')
 const cheerio = require('cheerio')
-const moment = require('moment')
 
 const writeFile = util.promisify(fs.writeFile)
 const appendFile = util.promisify(fs.appendFile)
 
 const BASE_URL = 'http://directory.ucdavis.edu/search/directory_results.shtml'
-const NOW = moment().format('YYYY-MM-DD_HH-mm')
-const OUTPUT = path.join(__dirname, 'data', `${NOW}.json`)
-const LOGFILE = path.join(__dirname, 'data', `${NOW}.log`)
 
 function pad (id) {
   return ('00000000' + id).slice(-8)
@@ -58,7 +53,7 @@ async function getPages (start, count) {
   return Promise.all(promises)
 }
 
-async function scrape (start = 0, end = 99999999, chunk = 500, outputPath = OUTPUT, logPath = LOGFILE) {
+async function scrape (start, end, chunk, outputPath, logPath) {
   const startTime = Date.now()
   const logger = new (winston.Logger)({
     transports: [ new (winston.transports.File)({ filename: logPath }) ]
