@@ -16,7 +16,7 @@ function getLink (ip) {
   }
 
   const index = ++counter % LINKS.length
-  cached[ip] = index
+  cache[ip] = index
   return LINKS[index]
 }
 
