@@ -14,7 +14,7 @@ app.use('/davis', serveIndex(path.join(__dirname, 'davis', 'data'), { view: 'det
 app.use('/football', express.static(path.join(__dirname, 'football', 'data')))
 app.use('/football', serveIndex(path.join(__dirname, 'football', 'data'), { view: 'details' }))
 
-app.use('links', linksRouter)
+app.use('/links', linksRouter)
 
 app.listen(port, () => {
   console.log(`lester-stuff started on port ${port}`)
