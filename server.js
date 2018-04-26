@@ -5,7 +5,7 @@ const serveIndex = require('serve-index')
 const linksRouter = require('./links/router')
 
 const app = express()
-const port = process.argv[2] || process.env.LESTER_SCRAPE_PORT || 80
+const port = process.argv[2] || process.env.LESTER_STUFF_PORT || 80
 
 app.set('trust proxy', true)
 
