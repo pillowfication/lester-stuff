@@ -2,8 +2,8 @@ const express = require('express')
 const router = express.Router()
 
 const LINKS = [
-  'http://lester.pf-n.co/davis',
-  'http://lester.pf-n.co/football'
+  'http://www.espn.com/',
+  'https://www.youtube.com/'
 ]
 
 const cache = {}
