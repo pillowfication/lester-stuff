@@ -7,7 +7,7 @@ const linksRouter = require('./links/router')
 const app = express()
 const port = process.argv[2] || process.env.LESTER_STUFF_PORT || 80
 
-app.set('trust proxy', true)
+app.set('trust proxy', 'loopback')
 
 app.use('/davis', express.static(path.join(__dirname, 'davis', 'data')))
 app.use('/davis', serveIndex(path.join(__dirname, 'davis', 'data'), { view: 'details' }))
