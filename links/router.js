@@ -11,7 +11,7 @@ let counter = 0
 
 function getLink (ip) {
   const cached = cache[ip]
-  if (cached) {
+  if (cached !== undefined) {
     return LINKS[cached]
   }
 
