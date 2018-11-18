@@ -1,9 +1,33 @@
+const fs = require('fs')
+const path = require('path')
 const request = require('request')
 const cheerio = require('cheerio')
-const jsonfile = require('jsonfile')
+// const jsonfile = require('jsonfile')
+const csvStringify = require('csv-stringify')
 const journalList = require('./journals.json')
 
 const BASE_URL = 'https://econpapers.repec.org/article'
+const OUTPUT_PATH = path.resolve(__dirname, './data.csv')
+
+function parseVIY (str) {
+  str = str.trim()
+  let match, volume, issue, year
+
+  /* eslint-disable no-cond-assign */
+  if (match = str.match(/^([0-9]+), issue ([0-9a-z., _-]+), vol ([0-9]+)$/i)) {
+    [, year, issue, volume] = match
+  } else if (match = str.match(/^volume ([0-9]+), issue ([0-9a-z., _-]+), ([0-9]+)$/i)) {
+    [, volume, issue, year] = match
+  } else if (match = str.match(/^([0-9]+), issue ([0-9a-z., _-]+)$/i)) {
+    [, year, issue] = match
+    volume = '-1'
+  } else {
+    throw new Error('oops')
+  }
+  /* eslint-enable no-cond-assign */
+
+  return { volume, issue, year }
+}
 
 function requestGet (url) {
   return new Promise((resolve, reject) => {
@@ -18,30 +42,43 @@ function requestGet (url) {
 }
 
 async function getPage (journalId, page) {
-  const html = await requestGet(`${BASE_URL}/${journalId}/default${page || ''}.htm`)
-  const $ = cheerio.load(html)
+  try {
+    const html = await requestGet(`${BASE_URL}/${journalId}/default${page || ''}.htm`)
+    const $ = cheerio.load(html)
 
-  const firstHeader = $('h1.colored').first()
-  if (firstHeader.text() === 'Error: 404 Not Found') {
-    return null
-  }
+    const firstHeader = $('h1.colored').first()
+    if (firstHeader.text() === 'Error: 404 Not Found') {
+      return null
+    }
 
-  const data = []
-  $('.bodytext b').each((_, b) => {
-    const [ volume, issue ] = b.children[0].attribs.name.split(':').map(s => s.substring(1))
-    // const year = b.children[1].data.substring(2)
-    const papers = []
-    $(b).parent().next().children('dt').each((_, dt) => {
-      papers.push({
-        title: dt.children[0].children[0].data,
-        authors: $(dt).next().children('i').map((_, i) => $(i).text()).get()
+    const data = []
+    $('.bodytext b').each((_, b) => {
+      let volume, issue, year
+      try {
+        ({ volume, issue, year } = parseVIY($(b).text()))
+      } catch (e) {
+        console.log('UNKNOWN FORMAT')
+        console.log($(b).text())
+        console.log(journalId, page)
+      }
+
+      const papers = []
+      $(b).parent().next().children('dt').each((_, dt) => {
+        papers.push({
+          title: dt.children[0].children[0].data,
+          url: `${BASE_URL}/${journalId}/${dt.children[0].attribs.href}`,
+          authors: $(dt).next().children('i').map((_, i) => $(i).text()).get()
+        })
       })
+
+      data.push({ volume, issue, year, papers })
     })
 
-    data.push({ volume, issue, /* year, */ papers })
-  })
-
-  return data
+    return data
+  } catch (error) {
+    console.log(`Something errored at URL: ${BASE_URL}/${journalId}/default${page || ''}.htm`)
+    console.log(error)
+  }
 }
 
 async function getJournal (journalId) {
@@ -60,7 +97,10 @@ async function getJournal (journalId) {
     } else {
       for (const chunk of data) {
         const volume = journal.contents[chunk.volume] || (journal.contents[chunk.volume] = {})
-        volume[chunk.issue] = chunk.papers
+        volume[chunk.issue] = {
+          year: chunk.year,
+          papers: chunk.papers
+        }
       }
     }
   }
@@ -69,14 +109,56 @@ async function getJournal (journalId) {
 }
 
 function getAllJournals () {
-  Promise.all(journalList.map(journal => getJournal(journal.id)))
+  Promise.all(journalList/**/.slice(0, 5)/**/.map(journal => getJournal(journal.id)))
     .then(data => {
-      try {
-        jsonfile.writeFileSync('data.json', data, { spaces: 2 })
-      } catch (_error) {
-        console.log('Error creating `data.json`. Please try again.')
-        console.log(_error)
+      const csv = []
+      const columns = {
+        journal: 'Journal',
+        journalId: 'Journal ID',
+        volume: 'Volume',
+        issue: 'Issue',
+        year: 'Year of Issue',
+        title: 'Paper Title',
+        url: 'URL',
+        author: 'Name of Author'
       }
+
+      for (const journal of data) {
+        for (const volume of Object.keys(journal.contents).sort()) {
+          for (const issue of Object.keys(journal.contents[volume]).sort()) {
+            for (const paper of journal.contents[volume][issue].papers) {
+              for (const author of paper.authors) {
+                csv.push({
+                  journal: journal.title,
+                  journalId: journal.id,
+                  volume,
+                  issue,
+                  year: journal.contents[volume][issue].year,
+                  title: paper.title,
+                  url: paper.url,
+                  author: author
+                })
+              }
+            }
+          }
+        }
+      }
+
+      csvStringify(csv, { header: true, columns }, (error, csv) => {
+        if (error) {
+          console.log('Couldn\'t csv-stringify...')
+        } else {
+          fs.writeFileSync(OUTPUT_PATH, csv)
+          console.log(`Wrote to ${OUTPUT_PATH}`)
+        }
+      })
+
+      // try {
+      //   jsonfile.writeFileSync('data.json', data, { spaces: 2 })
+      // } catch (_error) {
+      //   console.log('Error creating `data.json`. Please try again.')
+      //   console.log(_error)
+      // }
     })
     .catch(error => {
       console.log('SOMETHING BAD HAPPENED')
