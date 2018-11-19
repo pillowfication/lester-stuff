@@ -16,11 +16,23 @@ function parseVIY (str) {
   /* eslint-disable no-cond-assign */
   if (match = str.match(/^([0-9]+), issue ([0-9a-z., _-]+), vol ([0-9]+)$/i)) {
     [, year, issue, volume] = match
+  } else if (match = str.match(/^([0-9]+),  volume ([0-9]+), issue ([0-9a-z., _-]+)$/i)) {
+    [, year, volume, issue] = match
   } else if (match = str.match(/^volume ([0-9]+), issue ([0-9a-z., _-]+), ([0-9]+)$/i)) {
     [, volume, issue, year] = match
   } else if (match = str.match(/^([0-9]+), issue ([0-9a-z., _-]+)$/i)) {
     [, year, issue] = match
     volume = '-1'
+  } else if (match = str.match(/^([0-9]+),  volume ([0-9]+)$/i)) {
+    [, year, volume] = match
+    issue = '-1'
+  } else if (match = str.match(/^volume ([0-9]+), issue ([0-9a-z., _-]+)$/i)) {
+    [, volume, issue] = match
+    year = '-1'
+  } else if (match = str.match(/^volume ([0-9]+)$/i)) {
+    [, volume] = match
+    year = '-1'
+    issue = '-1'
   } else {
     throw new Error('oops')
   }
