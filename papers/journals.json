@@ -20,5 +20,113 @@
   }, {
     "name": "Review of Economic Studies",
     "id": "ouprestud"
+  }, {
+    "name": "Journal of Political Economy",
+    "id": "ucpjpolec"
+  }, {
+    "name": "American Economic Journal: Macroeconomics",
+    "id": "aeaaejmac"
+  }, {
+    "name": "Journal of Finance",
+    "id": "blajfinan"
+  }, {
+    "name": "Review of Financial Studies",
+    "id": "ouprfinst"
+  }, {
+    "name": "Journal of Financial Economics",
+    "id": "eeejfinec"
+  }, {
+    "name": "American Economic Journal: Applied Economics",
+    "id": "aeaaejapp"
+  }, {
+    "name": "The Review of Economics and Statistics",
+    "id": "tprrestat"
+  }, {
+    "name": "Jounral of Monetary Economics",
+    "id": "eeemoneco"
+  }, {
+    "name": "Journal of Development Economics",
+    "id": "eeedeveco"
+  }, {
+    "name": "Journal of the European Economic Association",
+    "id": "tprjeurec"
+  }, {
+    "name": "Journal of the European Economic Association",
+    "id": "blajeurec"
+  }, {
+    "name": "Journal of the European Economic Association",
+    "id": "oupjeurec"
+  }, {
+    "name": "Energy Policy",
+    "id": "eeeenepol"
+  }, {
+    "name": "Journal of International Economics",
+    "id": "eeeinecon"
+  }, {
+    "name": "Economic Journal, Royal Economic Society",
+    "id": "ecjeconjl"
+  }, {
+    "name": "Economic Journal, Royal Economic Society",
+    "id": "wlyeconjl"
+  }, {
+    "name": "American Economic Journal: Economic Policy",
+    "id": "aeaaejpol"
+  }, {
+    "name": "Journal of Public Economics  (#26)",
+    "id": "eeepubeco"
+  }, {
+    "name": "Journal of Labor Economics, Chicago Press",
+    "id": "ucpjlabec"
+  }, {
+    "name": "Journal of Human Resources, Wisconsin Press",
+    "id": "uwpjhriss"
+  }, {
+    "name": "Energy Economics, Elsevier",
+    "id": "eeeeneeco"
+  }, {
+    "name": "European Economic Review",
+    "id": "eeeeecrev"
+  }, {
+    "name": "Journal of Econometrics, Elsevier",
+    "id": "eeeeconom"
+  }, {
+    "name": "Journal of Applied Econometrics",
+    "id": "jaejapmet"
+  }, {
+    "name": "Journal of Applied Econometrics",
+    "id": "wlyjapmet"
+  }, {
+    "name": "Journal of International Money and Finance, Elsevier",
+    "id": "eeejimfin"
+  }, {
+    "name": "International Economic Review, Pennsylvania",
+    "id": "ieriecrev"
+  }, {
+    "name": "International Economic Review, Pennsylvania",
+    "id": "wlyiecrev"
+  }, {
+    "name": "Journal of Urban Economics, Elsevier",
+    "id": "eeejuecon"
+  }, {
+    "name": "Economics Letters, Elsevier",
+    "id": "eeeecolet"
+  }, {
+    "name": "Journal of Economic Behavior & Organization, Elsevier",
+    "id": "eeejeborg"
+  }, {
+    "name": "Experimental Economics, Springer",
+    "id": "kapexpeco"
+  }, {
+    "name": "Labour Economics, Elsevier",
+    "id": "eeelabeco"
+  }, {
+    "name": "Journal of Economic Theory, Elsevier",
+    "id": "eeejetheo"
+  }, {
+    "name": "Journal of Health Economics, Elsevier",
+    "id": "eeejhecon"
+  }, {
+    "name": "Management Science",
+    "id": "inmormnsc"
   }
 ]
