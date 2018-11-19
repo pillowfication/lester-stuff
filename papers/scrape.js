@@ -109,7 +109,10 @@ async function getJournal (journalId) {
 }
 
 function getAllJournals () {
-  Promise.all(journalList/**/.slice(0, 5)/**/.map(journal => getJournal(journal.id)))
+  console.log('starting scrape')
+  const start = Date.now()
+
+  Promise.all(journalList.map(journal => getJournal(journal.id)))
     .then(data => {
       const csv = []
       const columns = {
@@ -150,6 +153,7 @@ function getAllJournals () {
         } else {
           fs.writeFileSync(OUTPUT_PATH, csv)
           console.log(`Wrote to ${OUTPUT_PATH}`)
+          console.log(`Time taken: ${((Date.now() - start) / 1000).toFixed(2)}s`)
         }
       })
 
