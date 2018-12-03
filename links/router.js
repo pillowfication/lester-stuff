@@ -1,15 +1,25 @@
 const express = require('express')
+const expressFingerprint = require('express-fingerprint')
 const router = express.Router()
 
+router.use(expressFingerprint({
+  parameters: [
+    expressFingerprint.useragent,
+    expressFingerprint.acceptHeaders,
+    expressFingerprint.geoip
+  ]
+}))
+
 const LINKS = [
-  'http://www.espn.com/',
-  'https://www.youtube.com/'
+  'https://ucdavis.co1.qualtrics.com/jfe/form/SV_23oJCpnoIjypzOl',
+  'https://ucdavis.co1.qualtrics.com/jfe/form/SV_3jXU1bw8r4VRvkV'
 ]
 
 const cache = {}
 let counter = 0
 
 function getLink (ip) {
+console.log(ip)
   const cached = cache[ip]
   if (cached !== undefined) {
     return LINKS[cached]
@@ -21,7 +31,7 @@ function getLink (ip) {
 }
 
 router.get('/', (request, response) => {
-  const link = getLink(request.ip)
+  const link = getLink(request.ip + '|' + request.fingerprint.hash)
   response.redirect(link)
 })
 
