@@ -13,6 +13,8 @@ app.use('/davis', express.static(path.join(__dirname, 'davis', 'data')))
 app.use('/davis', serveIndex(path.join(__dirname, 'davis', 'data'), { view: 'details' }))
 app.use('/football', express.static(path.join(__dirname, 'football', 'data')))
 app.use('/football', serveIndex(path.join(__dirname, 'football', 'data'), { view: 'details' }))
+app.use('/papers', express.static(path.join(__dirname, 'papers', 'data')))
+app.use('/papers', serveIndex(path.join(__dirname, 'papers', 'data'), { view: 'details' }))
 
 app.use('/links', linksRouter)
 
