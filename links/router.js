@@ -19,7 +19,6 @@ const cache = {}
 let counter = 0
 
 function getLink (ip) {
-console.log(ip)
   const cached = cache[ip]
   if (cached !== undefined) {
     return LINKS[cached]
