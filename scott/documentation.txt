@@ -1,0 +1,136 @@
+The base URL is https://jhr.msubmit.net/
+
+To successfully make a pull request, I copied over all the HTTP headers that were sent when Scott's Safari made a request. "Accept-Encoding" was left blank to simplify code.
+
+On the first day, the web server crashed because it was overloaded. As a quick fix, requests were throttled to 1 per second.
+
+The main page required POSTing a form to access, and the response was incredibly slow. Scott made the request through Safari, and I copied the response into "main.html". I also added "#the-table" to the desired element to simplify code.
+
+Each row in the table was parsed for
+  {
+    coeditor: String,
+    coeditor_link: URL,
+    ms_number: String,
+    ms_number_link: URL,
+    corresponding_author: String,
+    corresponding_author_link: URL,
+    status: String,
+    date: YYYY-MM-DD
+  }
+This table information was saved to "main.json".
+
+All unique statuses were determined and recorded in "statuses.txt". The statuses we care about are
+  In Review, Round 2
+  In Review, Round 4
+  Pending Acceptance
+  Rejected
+  Requested Major Revision 0
+  Requested Major Revision 1
+
+For each row with a relevant status, a request was made to "ms_number_link". The response should have a table with a row with <th> saying "Decision". "Decision" may also be wrapped in an <a> linked to the decision page. Each request was parsed for
+  DecisionStuff: {
+    index: Number,
+    url: URL,                         // matches corresponding "ms_number_link"
+    contributing_author: [ String ],  // This may be "dirty" but is cleaned in "everything.json"
+    decision: String,
+    decision_url: URL
+  }
+
+4570 decisions were recorded and outputted to "decisions.json". 12 responses did not have a "decision_url". One URL responded
+  "Because you've declined to be a Referee on this manuscript, the manuscript is no longer accessible."
+The other 11 responses had a decision of "Previous Decision" with a link. This is documented at the bottom of "test.js".
+
+2886 decisions are of the form
+  Reject without Review / YYYY-MM-DD (Previous Decision)?
+and only 2 of such have "Previous Decision".
+
+1341 decisions do not contain "Previous Decision" and are of the form
+  <status> / YYYY-MM-DD
+Where <status> is any one of
+  1293 - Reject
+  37   - Do not accept but encourage author(s) to resubmit with major revision
+  6    - Do not accept without answers to some important questions or without significant revision
+  3    - Publish as is
+
+These decisions were scraped first and recorded in "no_prev.json". For each decision, a request was made to "decision_url" to look for the "Evaluations" table. These tables were parsed into the following structure
+  {
+    decision: DecisionStuff, // with "contributing_author" missing
+    data: {
+      headers: [ String ],
+      rows: [ [ String ] ]
+    }
+  }
+The first header was always blank, and is assumed to be "name". Other seen headers are "role", "overall_evaluation", and "final_recommendation". Some tables did not have "overall_evaluation".
+
+"role" is of the form
+  Coeditor
+  Referee #[1-5] (-AE|-Suggested Referee)?
+"overall_evaluation" is of the form
+  <empty>
+  Reject
+  Do not accept but encourage author(s) to resubmit with major revision
+  Do not accept without answers to some important questions or without significant revision
+  Accept with some revision but no major change
+  Publish as is
+  Please Select
+"final_recommendation" is of the form
+  <empty>
+  Reject
+  Do not accept but encourage author(s) to resubmit with major revision
+  Do not accept without answers to some important questions or without significant revision
+  Publish as is
+  Please Select
+
+6 of the requests did not result in a table. This is recorded in "no_prev_err.txt". These entries were left out in "no_prev.json".
+
+The remaining 331 decisions that include "Previous Decision" were scraped similarly. First the URL was modified to retrieve only the first evaluation received (and not the evaluation of any of its revisions). This was done by changing the "ms_rev_no" in the query string to have a value of "0". Results were recorded to "with_prev.json".
+
+1 of the requests did not result in a table. This is recorded in "with_prev_err.txt". These entries were left out in "with_prev.json".
+
+All the information was collected into a single JSON file "everything.json" with structure
+  [
+    {
+      index: Number,
+      coeditor: String,
+      coeditor_link: URL,
+      ms_number: String,
+      ms_number_link: URL,
+      corresponding_author: String,
+      corresponding_author_link: URL,
+      contributing_authors: [ String ],
+      status: String,
+      date: YYYY-MM-DD,
+      decision: String,
+      decision_url: URL,
+      decision_table: [
+        {
+          name: String,
+          role: String,
+          overall_evaluation: String,
+          final_recommendation: String
+        }
+      ]
+    }
+  ]
+
+This is then split into 3 separate .csv files
+  "main.csv"
+    coeditor: String,
+    ms_number: MSNumber,
+    corresponding_author: String,
+    status: MSStatus,
+    date: YYYY-MM-DD
+  "contributing_authors.csv"
+    ms_number: MSNumber,
+    contributing_author: String
+  "evaluations.csv"
+    ms_number: MSNumber,
+    name: String,
+    role: EvaluationsRole,
+    overall_evaluation: Evaluation,
+    final_recommendation: Evaluation
+
+  MSNumber: /^\d{4}-\d{4}(R\d?)?$/
+  MSStatus: See above
+  EvaluationsRole: /^Referee #[1-5]( -AE|-Suggested Referee)?$/
+  Evaluation: See above
