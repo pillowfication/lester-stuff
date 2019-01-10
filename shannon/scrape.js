@@ -4,7 +4,8 @@ const _ = require('lodash')
 const cheerio = require('cheerio')
 const request = require('./make-request')
 
-module.exports = async function scrape () {
+module.exports = async function scrape (file) {
+  file = Number(file)
   // Load the main page
   const mainPage = await request('https://www.sis.hawaii.edu/uhdad/avail.classes?i=MAN&t=201930')
   const $ = cheerio.load(mainPage)
@@ -26,15 +27,24 @@ module.exports = async function scrape () {
   // Grab just the 'href' attribute again
   const subjectClasses = subjectPages.map(page => {
     const $ = cheerio.load(page)
-    const links = $('table.listOfClasses tr td:nth-child(2) a')
-      .map((index, element) => $(element).attr('href').substring(2))
-      .get()
-    return links
+    // const links = $('table.listOfClasses tr td:nth-child(2) a')
+    //   .map((index, element) => $(element).attr('href').substring(2))
+    //   .get()
+    const links = $('table.listOfClasses tr td:nth-child(3)')
+      .map((index, element) => {
+        const $element = $(element)
+        const match = $element.text().match(/([0-9]{3})(?:[a-z])?$/i)
+        if (!match || Number(match[1]) >= 500)
+          return null
+        return $element.prev().find('a').attr('href').substring(2)
+      })
+    return _.compact(links)
   })
 
   // `subjectClasses` is now a 2D array of links
   // Flattening it to simplify the next part (we don't care about the 2D-ness)
-  const allCRNLinks = [].concat(...subjectClasses).slice(1750, 2000)
+  const chunkSize = 250
+  const allCRNLinks = [].concat(...subjectClasses).slice(file * chunkSize, (file + 1) * chunkSize)
 
   // Now for each CRN link...
   const allEmails = await Promise.all(allCRNLinks.map(url =>
@@ -67,7 +77,9 @@ module.exports = async function scrape () {
   ))
 
   fs.writeFileSync(
-    path.resolve(__dirname, './emails8.txt'),
+    path.resolve(__dirname, `./emails${file}.txt`),
     _.uniq(_.compact(allEmails)).sort().map(str => str + '\n').join('')
   )
 }
+
+module.exports(process.argv[2]).then(() => { console.log(process.argv[2]) })

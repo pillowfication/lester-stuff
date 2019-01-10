@@ -9,4 +9,3 @@ https.get('https://www.sis.hawaii.edu/uhdad/avail.classes?i=MAN&t=201930', res =
 }).on('error', err => {
   console.error(err)
 })
-

@@ -21,6 +21,9 @@
     "name": "Review of Economic Studies",
     "id": "ouprestud"
   }, {
+    "name": "Journal of Economic Literature",
+    "id": "aeajeclit"
+  }, {
     "name": "Journal of Political Economy",
     "id": "ucpjpolec"
   }, {
@@ -42,8 +45,14 @@
     "name": "The Review of Economics and Statistics",
     "id": "tprrestat"
   }, {
+    "name": "Renewable and Sustainable Energy Reviews",
+    "id": "eeerensus"
+  }, {
     "name": "Jounral of Monetary Economics",
     "id": "eeemoneco"
+  }, {
+    "name": "Journal of Economic Perspectives",
+    "id": "aeajecper"
   }, {
     "name": "Journal of Development Economics",
     "id": "eeedeveco"
@@ -57,6 +66,9 @@
     "name": "Journal of the European Economic Association",
     "id": "oupjeurec"
   }, {
+    "name": "Brookings Papers on Economic Activity",
+    "id": "binbpeajo"
+  }, {
     "name": "Energy Policy",
     "id": "eeeenepol"
   }, {
@@ -69,17 +81,50 @@
     "name": "Economic Journal, Royal Economic Society",
     "id": "wlyeconjl"
   }, {
+    "name": "Economic Policy",
+    "id": "blaecpoli"
+  }, {
+    "name": "Economic Policy",
+    "id": "oupecpoli"
+  }, {
+    "name": "Annual Review of Economics",
+    "id": "anrreveco"
+  }, {
     "name": "American Economic Journal: Economic Policy",
     "id": "aeaaejpol"
   }, {
+    "name": "Journal of Banking & Finance",
+    "id": "eeejbfina"
+  }, {
     "name": "Journal of Public Economics  (#26)",
     "id": "eeepubeco"
+  }, {
+    "name": "Annual Review of Economics, Annual Reviews",
+    "id": "anrreveco"
+  }, {
+    "name": "Journal of Economics Growth",
+    "id": "kapjecgro"
   }, {
     "name": "Journal of Labor Economics, Chicago Press",
     "id": "ucpjlabec"
   }, {
     "name": "Journal of Human Resources, Wisconsin Press",
     "id": "uwpjhriss"
+  }, {
+    "name": "Review of Economics Dynamics, Elsevier",
+    "id": "redissued"
+  }, {
+    "name": "IMF Economic Review",
+    "id": "palimfecr"
+  }, {
+    "name": "Journal of Money, Credit and Banking",
+    "id": "mcbjmoncb"
+  }, {
+    "name": "Journal of Money, Credit and Banking",
+    "id": "wlyjmoncb"
+  }, {
+    "name": "Applied Energy, Elseview",
+    "id": "eeeappene"
   }, {
     "name": "Energy Economics, Elsevier",
     "id": "eeeeneeco"
@@ -90,14 +135,32 @@
     "name": "Journal of Econometrics, Elsevier",
     "id": "eeeeconom"
   }, {
+    "name": "World Development, Elsevier",
+    "id": "eeewdevel"
+  }, {
     "name": "Journal of Applied Econometrics",
     "id": "jaejapmet"
   }, {
     "name": "Journal of Applied Econometrics",
     "id": "wlyjapmet"
   }, {
+    "name": "Journal of Financial Intermediation, Elsevier",
+    "id": "eeejfinin"
+  }, {
+    "name": "Journal of Business & Economics Statistics",
+    "id": "besjnlbes"
+  }, {
+    "name": "Journal of Business & Economics Statistics",
+    "id": "tafjnlbes"
+  }, {
+    "name": "Energy, Elsevier",
+    "id": "eeeenergy"
+  }, {
     "name": "Journal of International Money and Finance, Elsevier",
     "id": "eeejimfin"
+  }, {
+    "name": "International Journal of Central Banking",
+    "id": "ijcijcjou"
   }, {
     "name": "International Economic Review, Pennsylvania",
     "id": "ieriecrev"
@@ -108,11 +171,23 @@
     "name": "Journal of Urban Economics, Elsevier",
     "id": "eeejuecon"
   }, {
+    "name": "Journal of Economic Dynamics and Control",
+    "id": "eeedyncon"
+  }, {
+    "name": "Stata Journal, StataCorp LP",
+    "id": "tsjstataj"
+  }, {
     "name": "Economics Letters, Elsevier",
     "id": "eeeecolet"
   }, {
     "name": "Journal of Economic Behavior & Organization, Elsevier",
     "id": "eeejeborg"
+  }, {
+    "name": "Research Policy, Elsevier",
+    "id": "eeerespol"
+  }, {
+    "name": "BIS Quarterly Review, Bank for Internatinal Settlements",
+    "id": "bisbisqtr"
   }, {
     "name": "Experimental Economics, Springer",
     "id": "kapexpeco"
@@ -120,13 +195,148 @@
     "name": "Labour Economics, Elsevier",
     "id": "eeelabeco"
   }, {
+    "name": "Economics Bulletin, AccessEcon",
+    "id": "eblecbull"
+  }, {
+    "name": "RAND Journal of Economics, RAND",
+    "id": "rjerandje"
+  }, {
+    "name": "RAND Journal of Economics, RAND",
+    "id": "blarandje"
+  }, {
     "name": "Journal of Economic Theory, Elsevier",
     "id": "eeejetheo"
+  }, {
+    "name": "Quantitive Economics, Econometric Society",
+    "id": "ecmquante"
+  }, {
+    "name": "Quantitive Economics, Econometric Society",
+    "id": "wlyquante"
+  }, {
+    "name": "Annals of Economics and Finance",
+    "id": "cufjournl"
+  }, {
+    "name": "Journal of Financial Stability, Elsevier",
+    "id": "eeefinsta"
   }, {
     "name": "Journal of Health Economics, Elsevier",
     "id": "eeejhecon"
   }, {
+    "name": "European Journal of Operational Research, Elsvier",
+    "id": "eeeejores"
+  }, {
+    "name": "Journal of Environmental Economics and Management",
+    "id": "eeejeeman"
+  }, {
+    "name": "Journal of Economics Surveys, Wiley Blackwell",
+    "id": "blajecsur"
+  }, {
+    "name": "Ecological Economics, Elsevier",
+    "id": "eeeecolec"
+  }, {
+    "name": "Economic Modelling, Elsevier",
+    "id": "eeeecmode"
+  }, {
+    "name": "Annual Review of Dinancial Economics, Annual Reviews",
+    "id": "anrrefeco"
+  }, {
+    "name": "American Economic Journal: Microeconomics",
+    "id": "aeaaejmic"
+  }, {
+    "name": "Renewable Energy, Elsevier",
+    "id": "eeerenene"
+  }, {
+    "name": "Scandinavian Journal of Economics, Wiley Blackwell",
+    "id": "blascandj"
+  }, {
+    "name": "Journal of Financial and Quantitative Analysis",
+    "id": "cupjfinqa"
+  }, {
+    "name": "Journal of Intenational Business Studies",
+    "id": "paljintbs"
+  }, {
+    "name": "Review of Finance, European Finance Association",
+    "id": "ouprevfin"
+  }, {
+    "name": "Oxford Bulletin of Economics and Statistics",
+    "id": "blaobuest"
+  }, {
     "name": "Management Science",
     "id": "inmormnsc"
+  }, {
+    "name": "Journal of Business Research, Elsevier",
+    "id": "eeejbrese"
+  }, {
+    "name": "Journal of Population Economics, Springer",
+    "id": "sprjopoec"
+  }, {
+    "name": "Journal of Accounting and Economics, Elsevier",
+    "id": "eeejaecon"
+  }, {
+    "name": "Ovidius University annals, Economic Sciences Series",
+    "id": "ovioviste"
+  }, {
+    "name": "European Journal of Political Economy",
+    "id": "eeepoleco"
+  }, {
+    "name": "Review of Environmental Economics and Policy",
+    "id": "ouprenvp"
+  }, {
+    "name": "World Bank Economic Review, World Bank Group",
+    "id": "oupwbecrv"
+  }, {
+    "name": "Economics of Education Reciew, Elsevier",
+    "id": "eeeecoedu"
+  }, {
+    "name": "Sustainability, MDPI",
+    "id": "gamjsusta"
+  }, {
+    "name": "Small Business Economics, Springer",
+    "id": "kapsbusec"
+  }, {
+    "name": "Regional Science and Urban Economics, Elsevier",
+    "id": "eeeregeco"
+  }, {
+    "name": "Journal of Comparative Economics, Elsevier",
+    "id": "eeejcecon"
+  }, {
+    "name": "Economic Inquiry, Western Economic Association",
+    "id": "oupecinqu"
+  }, {
+    "name": "Economic Inquiry, Western Economic Association",
+    "id": "blaecinqu"
+  }, {
+    "name": "The Energy Journal, International Association for energy economics",
+    "id": "aenjournl"
+  }, {
+    "name": "Econometric Theory, Cambridge University Press",
+    "id": "cupetheor"
+  }, {
+    "name": "World Bank Research Observer",
+    "id": "oupwbrobs"
+  }, {
+    "name": "Canadian Journal of Economics",
+    "id": "cjeissued"
+  }, {
+    "name": "Journal of Economic Geography",
+    "id": "oupjecgeo"
+  }, {
+    "name": "Economica, London School of Econ and Poly Sci",
+    "id": "blaeconom"
+  }, {
+    "name": "Games and Economic Behavior",
+    "id": "eeegamebe"
+  }, {
+    "name": "Annals - Economy Series",
+    "id": "cbujrnlec"
+  }, {
+    "name": "Econometrics Journal, Royal Economic Society",
+    "id": "ectemjrnl"
+  }, {
+    "name": "Econometrics Journal, Royal Economic Society",
+    "id": "ectemjrnl"
+  }, {
+    "name": "Applied Economics, Taylor & Francis Journal",
+    "id": "tafapplec"
   }
 ]
