@@ -6,7 +6,7 @@ fs.writeFileSync(
   path.resolve(__dirname, './emails.txt'),
   _.uniq(
     _.compact(
-      [ 1, 2, 3, 4, 5, 6, 7, 8 ]
+      [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
         .map(x =>
           fs.readFileSync(path.resolve(__dirname, `./emails${x}.txt`)).toString()
         )
