@@ -1,4 +1,4 @@
-const data = require('./data/data.json')
+const data = require('./data/data-no-url.json')
 
 /*
 data = [
@@ -24,7 +24,8 @@ data = [
 */
 
 class Author {
-  constructor (name) {
+  constructor (name, paperInfo) {
+    this.papers = [ paperInfo ]
     this.name = name
     this.neighbors = {}
   }
@@ -32,8 +33,16 @@ class Author {
 
 const authors = {}
 
-function getAuthor (authorName) {
-  return authors[authorName] || (authors[authorName] = new Author(authorName))
+function getAuthor (authorName, paperInfo) {
+  let author = authors[authorName]
+  if (author) {
+    author.papers.push(paperInfo)
+    return author
+  } else {
+    author = new Author(authorName, paperInfo)
+    authors[authorName] = author
+    return author
+  }
 }
 function getNeighbor (author, neighborName) {
   return author.neighbors[neighborName] || (author.neighbors[neighborName] = [])
@@ -50,7 +59,7 @@ for (const journal of data) {
           year: issue.year
         }
         for (const authorName of paper.authors) {
-          const author = getAuthor(authorName)
+          const author = getAuthor(authorName, paperInfo)
           for (const coauthorName of paper.authors) {
             if (authorName !== coauthorName) {
               getNeighbor(author, coauthorName).push(paperInfo)
@@ -152,6 +161,71 @@ function findPaths (authorName, coauthorName, paperFilter = () => true) {
   return { tree, depth }
 }
 
+function getFullTree (authorName, maxDepth = 10, paperFilter = () => true) {
+  const author = authors[authorName]
+  if (!author) {
+    return null
+  }
+
+  const tree = {
+    authorName,
+    from: [],
+    children: []
+  }
+  let boundary = [ tree ]
+  let seenPapers = {}
+  let seenOnBoundary = []
+
+  function growChildren () {
+    const newBoundary = []
+    for (const node of boundary) {
+      const author = authors[node.authorName]
+      for (const neighborName of Object.keys(author.neighbors)) {
+        let inPath = false
+        for (let curr = node; curr; curr = curr.parent) {
+          if (curr.authorName === neighborName) {
+            inPath = true
+            break
+          }
+        }
+        if (inPath) {
+          continue
+        }
+        const filteredPapers = author.neighbors[neighborName].filter(paper => {
+          if (!paperFilter(paper) || seenPapers[paper.id]) {
+            return false
+          }
+          seenOnBoundary.push(paper.id)
+          return true
+        })
+        if (filteredPapers.length) {
+          const childNode = {
+            authorName: neighborName,
+            parent: node,
+            from: filteredPapers,
+            children: []
+          }
+          node.children.push(childNode)
+          newBoundary.push(childNode)
+        }
+      }
+    }
+    boundary = newBoundary
+    for (const paper of seenOnBoundary) {
+      seenPapers[paper] = true
+    }
+    seenOnBoundary = []
+  }
+
+  let depth = 0
+  while (depth < maxDepth) {
+    growChildren()
+    ++depth
+  }
+
+  return tree
+}
+
 function enumeratePaths (node) {
   const currPath = {
     authorName: node.authorName,
@@ -181,7 +255,7 @@ for (const word of dictionary) {
   node._ = true
 }
 
-function suggest (string, distance = 2) {
+function suggest1 (string, distance = 2) {
   if (typeof string !== 'string') {
     return []
   }
@@ -239,9 +313,24 @@ function suggest (string, distance = 2) {
   return results.sort()
 }
 
+function suggest (string, max = 6) {
+  if (authors[string]) {
+    return [ string ]
+  }
+  for (let dist = 1; dist <= max; ++dist) {
+    const suggestions = suggest1(string, dist)
+    if (suggestions.length) {
+      return suggestions
+    }
+  }
+  return []
+}
+
 module.exports = {
   authors,
   findPaths,
+  getFullTree,
   enumeratePaths,
-  suggest
+  suggest,
+  suggest1
 }
