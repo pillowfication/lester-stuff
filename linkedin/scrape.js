@@ -53,7 +53,7 @@ async function scrape () {
   const RESULTS_FILE = path.resolve(__dirname, './data/results.json')
   const studentNames = csvParse(fs.readFileSync(STUDENTS_FILE), { columns: true })
 
-  const START_INDEX = process.argv[2] || 0
+  const START_INDEX = +process.argv[2] || 0
   const TIME_DELAY = 1000
   const linkedInRegex = /^\/url\?q=https:\/\/www\.linkedin\.com\/in\/.*$/
 
