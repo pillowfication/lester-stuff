@@ -24,6 +24,7 @@ async function requestGet (url) {
 }
 
 async function getGoogleSearchResults (query) {
+  // Remember to turn off JS when testing manually
   const url = `${BASE_URL}/search?q=${querystring.escape(query)}`
   try {
     const html = await requestGet(url)
@@ -52,13 +53,13 @@ async function scrape () {
   const RESULTS_FILE = path.resolve(__dirname, './data/results.json')
   const studentNames = csvParse(fs.readFileSync(STUDENTS_FILE), { columns: true })
 
-  const START_INDEX = 0
+  const START_INDEX = process.argv[2] || 0
   const TIME_DELAY = 1000
   const linkedInRegex = /^\/url\?q=https:\/\/www\.linkedin\.com\/in\/.*$/
 
   for (let index = START_INDEX; index < studentNames.length; ++index) {
     const student = studentNames[index]
-    const fullName = `${student.first} ${student.last}`
+    const fullName = `${student.first} ${student.juhylast}`
     console.log(`${index} | ${student.newid} | ${fullName}`)
 
     const searchResults = (await getGoogleSearchResults(`${fullName} UC Davis LinkedIn`))
@@ -66,10 +67,8 @@ async function scrape () {
     fs.appendFileSync(RESULTS_FILE, JSON.stringify({ index, student, searchResults }) + '\n')
     await sleep(TIME_DELAY)
   }
-
-  return '\nFINISHED\n'
 }
 
 scrape()
-  .then(r => { console.log(r) })
+  .then(() => { console.log('\nFINISHED\n') })
   .catch(e => { console.log(e) })
