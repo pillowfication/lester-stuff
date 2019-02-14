@@ -10,7 +10,7 @@ const authorsCsv = csvParse(fs.readFileSync(path.resolve(__dirname, '../data/aut
 const refereesCsv = csvParse(fs.readFileSync(path.resolve(__dirname, '../data/referee.csv')), { columns: true })
 
 const YEAR = process.argv[2] || 9999
-const authors = filterCsv(authorsCsv, 'author')
+const authors = filterCsv(authorsCsv, 'author2')
 const referees = filterCsv(refereesCsv, 'name_referee')
 const OUTPUT = path.resolve(__dirname, `./${YEAR}-pairs.csv`)
 const OUTPUT_AUTHORS = path.resolve(__dirname, `./${YEAR}-authors.csv`)

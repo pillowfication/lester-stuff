@@ -1,5 +1,5 @@
-const network = require('./network')
-const nameMatches = require('./name-matches')
+const network = require('../network')
+const nameMatches = require('../name-matches')
 
 const seenNames = {}
 
@@ -19,5 +19,15 @@ for (let index = 0; index < authorNames.length; ++index) {
     seenNames[authorName] = [ authorName ]
   }
 }
+
+for (const key in seenNames) {
+  if (seenNames[key].length === 1) {
+    delete seenNames[key]
+  }
+}
+for (const key in seenNames) {
+  seenNames[key].splice(0, 1)
+}
+require('fs').writeFileSync(require('path').resolve(__dirname, 'EQUIVSTUFF.json'), JSON.stringify(seenNames))
 
 module.exports = seenNames

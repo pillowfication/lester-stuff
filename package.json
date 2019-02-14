@@ -23,7 +23,7 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
-    "@pf-n/parse-name": "^1.0.0",
+    "@pf-n/parse-name": "^1.0.1",
     "archiver": "^3.0.0",
     "async": "^2.6.1",
     "babel-loader": "^8.0.5",
