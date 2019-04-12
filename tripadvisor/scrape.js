@@ -17,7 +17,7 @@ function getHotelsPage (url, pageNum) {
 }
 
 async function scrapeHotel (url) {
-  const browser = await puppeteer.launch()
+  const browser = await puppeteer.launch({ args: [ '--no-sandbox' ] })
   const page = await browser.newPage()
 
   await page.goto(url)
@@ -89,7 +89,7 @@ async function scrapeHotel (url) {
 }
 
 async function scrapeListings (url) {
-  const browser = await puppeteer.launch()
+  const browser = await puppeteer.launch({ args: [ '--no-sandbox' ] })
   const page = await browser.newPage()
 
   let results = []
