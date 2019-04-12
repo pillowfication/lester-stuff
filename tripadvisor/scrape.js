@@ -20,7 +20,7 @@ async function scrapeHotel (url) {
   const browser = await puppeteer.launch({ args: [ '--no-sandbox' ] })
   const page = await browser.newPage()
 
-  await page.goto(url)
+  await page.goto(url, { waitUntil: 'load', timeout: 5 * 60 * 1000 })
   const html = await page.content()
   const $ = cheerio.load(html)
 
@@ -35,7 +35,7 @@ async function scrapeHotel (url) {
 
   for (let pageNum = 0; ; ++pageNum) {
     try {
-      await page.goto(getReviewsPage(url, pageNum))
+      await page.goto(getReviewsPage(url, pageNum), { waitUntil: 'load', timeout: 5 * 60 * 1000 })
       const html = await page.content()
       const $ = cheerio.load(html)
 
@@ -96,7 +96,7 @@ async function scrapeListings (url) {
 
   for (let pageNum = 0; ; ++pageNum) {
     console.log(pageNum)
-    await page.goto(getHotelsPage(url, pageNum))
+    await page.goto(getHotelsPage(url, pageNum), { waitUntil: 'load', timeout: 5 * 60 * 1000 })
     const html = await page.content()
     const $ = cheerio.load(html)
 
