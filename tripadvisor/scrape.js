@@ -112,6 +112,7 @@ async function scrapeListings (url) {
     results = results.concat(urls)
   }
 
+  await browser.close()
   return results
 }
 
