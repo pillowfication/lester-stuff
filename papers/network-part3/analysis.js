@@ -8,7 +8,19 @@ const csvParse = require('csv-parse/lib/sync')
 const authorsCsv = csvParse(fs.readFileSync(path.resolve(__dirname, '../data/authors.csv')), { columns: true })
 const refereesCsv = csvParse(fs.readFileSync(path.resolve(__dirname, '../data/referee.csv')), { columns: true })
 
-const YEAR = process.argv[2] || 9999
+const shanAuthors = csvParse(fs.readFileSync(path.resolve(__dirname, './data/sh_authors.csv')), { columns: true })
+const shanReferees = csvParse(fs.readFileSync(path.resolve(__dirname, './data/sh_referees.csv')), { columns: true })
+
+const ROOT_URL = 'https://ideas.repec.org'
+function shrinkUrl (url) {
+  return url.startsWith(ROOT_URL) ? url.substr(ROOT_URL.length) : url
+}
+
+/**/
+/* eslint-disable indent,no-inner-declarations,brace-style */
+for (let YEAR = 2008; YEAR <= 2019; ++YEAR) { console.log(`YEAR ${YEAR}`)
+/**/
+
 const authors = filterCsv(authorsCsv, 'author2')
 const referees = filterCsv(refereesCsv, 'name_referee')
 const OUTPUT = path.resolve(__dirname, `./${YEAR}-pairs.csv`)
@@ -33,9 +45,10 @@ function csvEscape (value) {
 
 function filterCsv (csv, col) {
   return _(csv)
-    .filter(row => row.year <= YEAR)
+    .filter(row => row.year === String(YEAR))
+    // .sortBy(row => -row.year)
     .map(col)
-    .uniqWith(nameMatches)
+    // .uniqWith(nameMatches)
     .value()
 }
 
@@ -46,7 +59,7 @@ function toCsvRow (row) {
 console.log('Authors Count: ' + authors.length)
 let count = 1
 let startTime = Date.now()
-fs.writeFileSync(OUTPUT_AUTHORS, 'author,found_name,url\n')
+fs.writeFileSync(OUTPUT_AUTHORS, 'author,found_name,found_from,url\n')
 
 const authorToRep = {}
 const repToAuthor = {}
@@ -59,12 +72,29 @@ for (const author of authors) {
     if (nameMatches(author, repName)) {
       authorToRep[author] = repName
       repToAuthor[repName] = author
-      fs.appendFileSync(OUTPUT_AUTHORS, toCsvRow([ author, repName, network.findAuthorUrl(repName) ]))
+      fs.appendFileSync(OUTPUT_AUTHORS, toCsvRow([ author, repName, 'match', network.findAuthorUrl(repName) ]))
       break
     }
   }
   if (!authorToRep[author]) {
-    fs.appendFileSync(OUTPUT_AUTHORS, toCsvRow([ author, '.', '.' ]))
+    for (const row of shanAuthors) {
+      if (author.trim() === row.author.trim()) {
+        if (row.url !== '.') {
+          const repp = network.authors[shrinkUrl(row.url)]
+          if (repp) {
+            authorToRep[author] = repp.name
+            repToAuthor[repp.name] = author
+            fs.appendFileSync(OUTPUT_AUTHORS, toCsvRow([ author, repp.name, 'shan', shrinkUrl(row.url) ]))
+          } else {
+            console.log(`Shan found "${row.found_name}" at ${shrinkUrl(row.url)}`)
+          }
+        }
+        break
+      }
+    }
+  }
+  if (!authorToRep[author]) {
+    fs.appendFileSync(OUTPUT_AUTHORS, toCsvRow([ author, '.', '.', '.' ]))
   }
   ++count
 }
@@ -72,7 +102,7 @@ for (const author of authors) {
 console.log('Referees Count: ' + referees.length)
 count = 1
 startTime = Date.now()
-fs.writeFileSync(OUTPUT_REFEREES, 'referee,found\n')
+fs.writeFileSync(OUTPUT_REFEREES, 'referee,found_name,found_from,url\n')
 
 const refereeToRep = {}
 const repToReferee = {}
@@ -85,12 +115,29 @@ for (const referee of referees) {
     if (nameMatches(referee, repName)) {
       refereeToRep[referee] = repName
       repToReferee[repName] = referee
-      fs.appendFileSync(OUTPUT_REFEREES, toCsvRow([ referee, 1 ]))
+      fs.appendFileSync(OUTPUT_REFEREES, toCsvRow([ referee, repName, 'match', network.findAuthorUrl(repName) ]))
       break
     }
   }
   if (!refereeToRep[referee]) {
-    fs.appendFileSync(OUTPUT_REFEREES, toCsvRow([ referee, 0 ]))
+    for (const row of shanReferees) {
+      if (referee.trim() === row.referee.trim()) {
+        if (row.url !== '.') {
+          const repp = network.authors[shrinkUrl(row.url)]
+          if (repp) {
+            refereeToRep[referee] = repp.name
+            repToReferee[repp.name] = referee
+            fs.appendFileSync(OUTPUT_REFEREES, toCsvRow([ referee, repp.name, 'shan', shrinkUrl(row.url) ]))
+          } else {
+            console.log(`Shan found "${row.found_name}" at ${shrinkUrl(row.url)}`)
+          }
+        }
+        break
+      }
+    }
+  }
+  if (!refereeToRep[referee]) {
+    fs.appendFileSync(OUTPUT_REFEREES, toCsvRow([ referee, '.', '.', '.' ]))
   }
   ++count
 }
@@ -149,3 +196,7 @@ for (const referee of referees) {
     }
   }
 }
+
+/**/
+}
+/**/

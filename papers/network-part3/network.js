@@ -5,14 +5,13 @@ const authors = {}
 const papers = {}
 
 function getResearch (author) {
-  if (!author.research.papers) return []
   const papers = []
-  for (const paper of author.research.papers) {
+  for (const paper of author.research.papers || []) {
     papers.push(paper)
     if (paper.publishedas) papers.push(paper.publishedas)
     if (paper.otherversion) papers.push(paper.otherversion)
   }
-  return [].concat(...papers)
+  return [].concat(...papers, author.research.articles || [], author.research.chapters || [])
 }
 
 for (const i of [ 0, 1, 2, 3, 4, 5 ]) {
