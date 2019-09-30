@@ -32,8 +32,20 @@ function isWP (url) {
 function is5Journals (url) {
   const fives = [ 'oupqjecon', 'aeaaecrev', 'ouprestud', 'ecmemetrp', 'wlyemetrp', 'ucpjpolec' ]
   for (const f of fives) {
-    if (url.startsWith(f)) return true
+    if (url.startsWith(f)) return !isAERPP(url)
   }
+  return false
+}
+
+const AERPP2 = require('./data/WOW-aeaaecrev.json')
+const blehMap = {}
+for (const paper of AERPP2.papers) {
+  blehMap[paper.url] = { issue: +paper.issue }
+}
+function isAERPP (url) {
+  if (!url.startsWith('aeaaecrev')) return false
+  const url2 = url.substring(10)
+  if (blehMap[url2] && blehMap[url2].issue === 5) return true
   return false
 }
 
