@@ -132,7 +132,7 @@ This is then split into 3 separate .csv files
 
   MSNumber: /^\d{4}-\d{4}(R\d?)?$/
   MSStatus: See above
-  EvaluationsRole: /^Referee #[1-5]( -AE|-Suggested Referee)?$/
+  EvaluationsRole: /^Referee #[1-5]( -AE| -Suggested Referee)?$/
   Evaluation: See above
 
 The whole process was repeated again for dates 1900-2010. Corresponding files just have a "2" appended to the file name.
