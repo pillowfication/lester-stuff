@@ -1,0 +1,1391 @@
+cdscode|statustype|county|district|website
+01100170000000|Active|Alameda|Alameda County Office of Education|http://www.acoe.org
+01316090000000|Active|Alameda|California School for the Blind (State Special Schl)|http://www.csb-cde.ca.gov
+01316170000000|Active|Alameda|California School for the Deaf-Fremont (State Special Schl)|http://www.csdeagles.com
+01611190000000|Active|Alameda|Alameda Unified|http://www.alameda.k12.ca.us
+01611270000000|Active|Alameda|Albany City Unified|http://www.ausdk12.org
+01611350000000|Merged|Alameda|Amador Valley Joint Union High|No Data
+01611430000000|Active|Alameda|Berkeley Unified|http://www.berkeleyschools.net
+01611500000000|Active|Alameda|Castro Valley Unified|http://www.cv.k12.ca.us
+01611680000000|Active|Alameda|Emery Unified|http://www.emeryusd.k12.ca.us
+01611760000000|Active|Alameda|Fremont Unified|http://www.fremont.k12.ca.us
+01611920000000|Active|Alameda|Hayward Unified|http://www.husd.k12.ca.us
+01612000000000|Active|Alameda|Livermore Valley Joint Unified|http://www.livermoreschools.org
+01612180000000|Active|Alameda|Mountain House Elementary|http://www.mtnhouse.k12.ca.us
+01612260000000|Merged|Alameda|Murray Elementary|No Data
+01612340000000|Active|Alameda|Newark Unified|http://www.newarkunified.org
+01612420000000|Active|Alameda|New Haven Unified|http://www.nhusd.k12.ca.us
+01612590000000|Active|Alameda|Oakland Unified|http://www.ousd.org
+01612750000000|Active|Alameda|Piedmont City Unified|http://www.piedmont.k12.ca.us
+01612830000000|Merged|Alameda|Pleasanton Joint Elementary|No Data
+01612910000000|Active|Alameda|San Leandro Unified|http://www.sanleandro.k12.ca.us
+01613090000000|Active|Alameda|San Lorenzo Unified|http://www.slzusd.org
+01613250000000|Merged|Alameda|Sunol Glen Elementary|No Data
+01740050000000|Active|Alameda|Tri-Valley ROP|No Data
+01740130000000|Active|Alameda|Eden Area ROP|No Data
+01740210000000|Active|Alameda|Mission Valley ROC/P|http://www.mvrop.org
+01740390000000|Closed|Alameda|East Bay Regional Occupational Agency (ROP)|No Data
+01741870000000|Closed|Alameda|Hayward-Newhaven|No Data
+01750930000000|Active|Alameda|Dublin Unified|http://www.dublinusd.org
+01751010000000|Active|Alameda|Pleasanton Unified|http://www.pleasantonusd.net
+01751190000000|Active|Alameda|Sunol Glen Unified|http://www.sunol.k12.ca.us
+01756220000000|Closed|Alameda|State Board of Education Charter|No Data
+01757050000000|Closed|Alameda|SBE - KIPP Summit Academy|http://www.kippsummit.org
+01763720000000|Closed|Alameda|SBE - Livermore Valley Charter|http://www.lvcs.org
+01763800000000|Closed|Alameda|SBE - Leadership Public Schools - Hayward|http://www.leadps.org/hayward.html
+01766530000000|Closed|Alameda|SBE - Livermore Valley Charter Preparatory High|http://www.tvlcboard.org
+01771800000000|Active|Alameda|SBE - Latitude 37.8 High|http://www.latitudehigh.org
+02100250000000|Active|Alpine|Alpine County Office of Education|http://www.alpinecoe.k12.ca.us
+02613330000000|Active|Alpine|Alpine County Unified|http://www.alpinecoe.k12.ca.us
+03100330000000|Active|Amador|Amador County Office of Education|http://www.amadorcoe.org/
+03613410000000|Merged|Amador|Ione Unified|No Data
+03613580000000|Merged|Amador|Jackson Unified|No Data
+03613660000000|Merged|Amador|Oro Madre Unified|No Data
+03739810000000|Active|Amador|Amador County Unified|http://www.amadorcoe.org
+03748560000000|Active|Amador|Amador County ROP|No Data
+04100410000000|Active|Butte|Butte County Office of Education|http://www.bcoe.org
+04613820000000|Active|Butte|Bangor Union Elementary|http://www.bangorunion.org
+04614080000000|Active|Butte|Biggs Unified|http://www.biggs.org
+04614240000000|Active|Butte|Chico Unified|http://www.chicousd.org
+04614320000000|Active|Butte|Durham Unified|http://www.durhamunified.org
+04614400000000|Closed|Butte|Feather Falls Union Elementary|http://www.bcoe.org/home/districts/featherfalls
+04614570000000|Active|Butte|Golden Feather Union Elementary|http://www.gfusd.org
+04614650000000|Merged|Butte|Gridley Union Elementary|No Data
+04614730000000|Merged|Butte|Gridley Union High|No Data
+04614990000000|Active|Butte|Manzanita Elementary|http://www.manzanitaelementaryschool.com
+04615070000000|Active|Butte|Oroville City Elementary|http://www.ocesd.net
+04615150000000|Active|Butte|Oroville Union High|http://www.ouhsd.org
+04615230000000|Active|Butte|Palermo Union Elementary|http://www.palermoschools.org
+04615310000000|Active|Butte|Paradise Unified|http://www.pusdk12.org
+04615490000000|Active|Butte|Thermalito Union Elementary|http://www.thermalito.org
+04733790000000|Active|Butte|Pioneer Union Elementary|http://www.puesd.org
+04746820000000|Active|Butte|Butte County ROP|No Data
+04755070000000|Active|Butte|Gridley Unified|http://www.gusd.org
+05100580000000|Active|Calaveras|Calaveras County Office of Education|http://www.ccoe.k12.ca.us
+05615560000000|Active|Calaveras|Bret Harte Union High|http://bhuhsd-ca.schoolloop.com/
+05615640000000|Active|Calaveras|Calaveras Unified|http://www.calaveras.k12.ca.us
+05615720000000|Active|Calaveras|Mark Twain Union Elementary|http://www.mtwain.k12.ca.us
+05615800000000|Active|Calaveras|Vallecito Union|http://vallecito-ca.schoolloop.com
+05748640000000|Closed|Calaveras|Calaveras County ROP|No Data
+06100660000000|Active|Colusa|Colusa County Office of Education|http://www.ccoe.net
+06615980000000|Active|Colusa|Colusa Unified|http://www.colusa.k12.ca.us
+06616060000000|Active|Colusa|Maxwell Unified|http://www.maxwell.k12.ca.us
+06616140000000|Active|Colusa|Pierce Joint Unified|http://www.pierce.k12.ca.us
+06616220000000|Active|Colusa|Williams Unified|http://www.williamsusd.net
+07100740000000|Active|Contra Costa|Contra Costa County Office of Education|http://www.cocoschools.org
+07616300000000|Active|Contra Costa|Acalanes Union High|http://www.acalanes.k12.ca.us
+07616480000000|Active|Contra Costa|Antioch Unified|http://www.antiochschools.net
+07616550000000|Active|Contra Costa|Brentwood Union Elementary|http://www.brentwood.k12.ca.us
+07616630000000|Active|Contra Costa|Byron Union Elementary|http://www.byronunionschooldistrict.us
+07616710000000|Active|Contra Costa|Canyon Elementary|http://www.canyon.k12.ca.us
+07616970000000|Active|Contra Costa|John Swett Unified|http://www.jsusd.org
+07617050000000|Active|Contra Costa|Knightsen Elementary|http://www.knightsen.k12.ca.us
+07617130000000|Active|Contra Costa|Lafayette Elementary|http://www.lafsd.org
+07617210000000|Active|Contra Costa|Liberty Union High|http://www.libertyuhsd.k12.ca.us
+07617390000000|Active|Contra Costa|Martinez Unified|http://www.martinez.k12.ca.us
+07617470000000|Active|Contra Costa|Moraga Elementary|http://district.moraga.k12.ca.us
+07617540000000|Active|Contra Costa|Mt. Diablo Unified|http://www.mdusd.org
+07617620000000|Active|Contra Costa|Oakley Union Elementary|http://www.ouesd.k12.ca.us
+07617700000000|Active|Contra Costa|Orinda Union Elementary|http://www.orindaschools.org
+07617880000000|Active|Contra Costa|Pittsburg Unified|http://www.pittsburg.k12.ca.us
+07617960000000|Active|Contra Costa|West Contra Costa Unified|http://www.wccusd.net
+07618040000000|Active|Contra Costa|San Ramon Valley Unified|http://www.srvusd.net
+07618120000000|Active|Contra Costa|Walnut Creek Elementary|http://www.walnutcreeksd.org
+07743440000000|Active|Contra Costa|Contra Costa County ROP|No Data
+07768100000000|Closed|Contra Costa|SBE - Synergy|http://www.synergycharter.org
+07770240000000|Active|Contra Costa|SBE - Rocketship Futuro Academy|http://www.rsed.org
+08100820000000|Active|Del Norte|Del Norte County Office of Education|http://www.dncoe.org
+08618200000000|Active|Del Norte|Del Norte County Unified|http://www.dnusd.org
+08743510000000|Active|Del Norte|Del Norte County ROP|No Data
+09100900000000|Active|El Dorado|El Dorado County Office of Education|http://www.edcoe.org
+09618380000000|Active|El Dorado|Buckeye Union Elementary|http://www.buckeyeusd.org
+09618460000000|Active|El Dorado|Camino Union Elementary|http://www.caminoschool.org
+09618530000000|Active|El Dorado|El Dorado Union High|http://www.eduhsd.k12.ca.us
+09618610000000|Closed|El Dorado|Georgetown Divide Union Elemen|No Data
+09618790000000|Active|El Dorado|Gold Oak Union Elementary|http://www.gousd.org
+09618870000000|Active|El Dorado|Gold Trail Union Elementary|http://www.gtusd.org
+09618950000000|Active|El Dorado|Indian Diggings Elementary|http://www.indiandiggingsschool.com
+09619030000000|Active|El Dorado|Lake Tahoe Unified|http://www.ltusd.org
+09619110000000|Active|El Dorado|Latrobe|http://www.latrobeschool.com
+09619290000000|Active|El Dorado|Mother Lode Union Elementary|http://www.mlusd.net
+09619370000000|Closed|El Dorado|Northside Union Elementary|No Data
+09619450000000|Active|El Dorado|Pioneer Union Elementary|http://pioneerusd.org
+09619520000000|Active|El Dorado|Placerville Union Elementary|http://www.pusdk8.us
+09619600000000|Active|El Dorado|Pollock Pines Elementary|http://www.ppesd.org
+09619780000000|Active|El Dorado|Rescue Union Elementary|http://www.rescueusd.org
+09619860000000|Active|El Dorado|Silver Fork Elementary|http://www.edcoe.org/districts/sfsd.html
+09737830000000|Active|El Dorado|Black Oak Mine Unified|http://www.bomusd.org
+09743770000000|Active|El Dorado|Central Sierra ROP|No Data
+09764890000000|Closed|El Dorado|SBC - Aspire Public Schools|http://www.aspirepublicschools.org
+09765960000000|Closed|El Dorado|SBC - Pacific Technology|http://www.magnoliapublicschools.org
+10101080000000|Active|Fresno|Fresno County Office of Education|http://www.fcoe.org
+10619940000000|Active|Fresno|Alvina Elementary|No Data
+10620000000000|Closed|Fresno|American Union Elementary|http://www.americanunion.k12.ca.us
+10620180000000|Merged|Fresno|Auberry Union Elementary|No Data
+10620260000000|Active|Fresno|Big Creek Elementary|http://www.bigcreekschool.com
+10620340000000|Merged|Fresno|Biola-Pershing Union Elementar|No Data
+10620420000000|Active|Fresno|Burrel Union Elementary|http://www.burrel.k12.ca.us
+10620590000000|Merged|Fresno|Cantua Elementary|No Data
+10620670000000|Merged|Fresno|Caruthers Union Elementary|No Data
+10620750000000|Merged|Fresno|Caruthers Union High|No Data
+10620830000000|Merged|Fresno|Central Union High|No Data
+10620910000000|Merged|Fresno|Chawanakee Elementary|No Data
+10621090000000|Active|Fresno|Clay Joint Elementary|http://www.clayschool.k12.ca.us
+10621170000000|Active|Fresno|Clovis Unified|http://www.cusd.com
+10621250000000|Active|Fresno|Coalinga-Huron Unified|http://www.chusd.org
+10621410000000|Closed|Fresno|Firebaugh Joint Elementary|No Data
+10621580000000|Active|Fresno|Fowler Unified|http://www.fowlerusd.org
+10621660000000|Active|Fresno|Fresno Unified|http://www.fresnounified.org
+10621740000000|Closed|Fresno|West Fresno Elementary|http://www.westfresno.net
+10621820000000|Merged|Fresno|Friant Union Elementary|No Data
+10621900000000|Merged|Fresno|Helm Elementary|No Data
+10622080000000|Merged|Fresno|Herndon Elementary|No Data
+10622160000000|Merged|Fresno|Houghton-Kearney Union Element|No Data
+10622240000000|Merged|Fresno|Kerman-Floyd Union Elementary|No Data
+10622320000000|Merged|Fresno|Kerman Union High|No Data
+10622400000000|Active|Fresno|Kingsburg Elementary Charter|http://www.kesd.org
+10622570000000|Active|Fresno|Kingsburg Joint Union High|http://kjuhsd.com
+10622650000000|Active|Fresno|Kings Canyon Joint Unified|http://www.kcusd.com
+10622730000000|Closed|Fresno|Las Deltas Elementary|No Data
+10622810000000|Active|Fresno|Laton Joint Unified|http://www.laton.k12.ca.us
+10622990000000|Merged|Fresno|Madison Elementary|No Data
+10623070000000|Merged|Fresno|McKinley-Roosevelt Union Eleme|No Data
+10623150000000|Merged|Fresno|Mendota Union Elementary|No Data
+10623230000000|Active|Fresno|Monroe Elementary|http://www.monroe.k12.ca.us
+10623310000000|Active|Fresno|Orange Center|http://www.orangecenter.org
+10623490000000|Merged|Fresno|Oro Loma Elementary|No Data
+10623560000000|Active|Fresno|Pacific Union Elementary|http://www.pacificunion.k12.ca.us
+10623640000000|Active|Fresno|Parlier Unified|http://www.parlierunified.org
+10623720000000|Active|Fresno|Pine Ridge Elementary|http://www.pineridge.k12.ca.us
+10623800000000|Active|Fresno|Raisin City Elementary|http://www.raisincity.k12.ca.us
+10623980000000|Merged|Fresno|Riverdale Joint Union Elementary|No Data
+10624060000000|Merged|Fresno|Riverdale Joint Union High|No Data
+10624140000000|Active|Fresno|Sanger Unified|http://www.sanger.k12.ca.us
+10624220000000|Merged|Fresno|San Joaquin Elementary|No Data
+10624300000000|Active|Fresno|Selma Unified|http://www.selmausd.org
+10624480000000|Merged|Fresno|Sierra Union Elementary|No Data
+10624550000000|Merged|Fresno|Sierra Joint Union High|No Data
+10624710000000|Merged|Fresno|Sun Empire Union Elementary|No Data
+10624890000000|Merged|Fresno|Teague Elementary|No Data
+10624970000000|Merged|Fresno|Tranquillity Elementary|No Data
+10625050000000|Merged|Fresno|Tranquillity Union High|No Data
+10625130000000|Active|Fresno|Washington Colony Elementary|http://www.washingtoncolony.org
+10625210000000|Closed|Fresno|Washington Union High|http://www.washingtonunion.net
+10625390000000|Active|Fresno|West Park Elementary|http://www.westpark.k12.ca.us
+10625470000000|Active|Fresno|Westside Elementary|http://www.westside-elem.k12.ca.us/
+10738090000000|Active|Fresno|Firebaugh-Las Deltas Unified|http://www.fldusd.org
+10739650000000|Active|Fresno|Central Unified|http://www.centralunified.org
+10739990000000|Active|Fresno|Kerman Unified|http://www.kermanusd.com
+10741530000000|Active|Fresno|Valley ROP|http://www.valleyrop.net
+10742600000000|Active|Fresno|Fresno ROP|No Data
+10751270000000|Active|Fresno|Mendota Unified|http://www.musdaztecs.com
+10752260000000|Merged|Fresno|Golden Hills Elementary|No Data
+10752340000000|Active|Fresno|Golden Plains Unified|http://www.gpusd.org
+10752750000000|Active|Fresno|Sierra Unified|http://www.sierrausd.org
+10754080000000|Active|Fresno|Riverdale Joint Unified|http://www.rjusd.org
+10755980000000|Active|Fresno|Caruthers Unified|http://www.caruthers.k12.ca.us
+10767780000000|Active|Fresno|Washington Unified|http://www.washingtonunified.org
+11101160000000|Active|Glenn|Glenn County Office of Education|http://www.glenncoe.org
+11625540000000|Active|Glenn|Capay Joint Union Elementary|http://www.cjuesd.org
+11625700000000|Merged|Glenn|Hamilton Union Elementary|http://www.huesd.org
+11625880000000|Merged|Glenn|Hamilton Union High|http://www.huhsd.org
+11625960000000|Active|Glenn|Lake Elementary|http://www.lakeschool.org
+11626120000000|Merged|Glenn|Orland Joint Union Elementary|No Data
+11626200000000|Merged|Glenn|Orland Joint Union High|No Data
+11626380000000|Active|Glenn|Plaza Elementary|http://www.plazaschool.org
+11626460000000|Active|Glenn|Princeton Joint Unified|http://www.pjusd.org
+11626530000000|Active|Glenn|Stony Creek Joint Unified|http://www.scjusd.org
+11626610000000|Active|Glenn|Willows Unified|http://www.willowsunified.org
+11743850000000|Active|Glenn|Glenn County ROP|No Data
+11754810000000|Active|Glenn|Orland Joint Unified|http://www.orlandusd.net
+11765620000000|Active|Glenn|Hamilton Unified|http://www.husdschools.org
+12101240000000|Active|Humboldt|Humboldt County Office of Education|http://www.humboldt.k12.ca.us
+12626790000000|Active|Humboldt|Arcata Elementary|http://arcataschooldistrict.org/
+12626870000000|Active|Humboldt|Northern Humboldt Union High|http://www.nohum.k12.ca.us
+12626950000000|Active|Humboldt|Big Lagoon Union Elementary|http://www.biglagoon.org
+12627030000000|Active|Humboldt|Blue Lake Union Elementary|http://bluelakeschool.org
+12627110000000|Closed|Humboldt|Bluff Prairie Elementary|No Data
+12627290000000|Active|Humboldt|Bridgeville Elementary|http://www.humboldt.k12.ca.us/bridgeville_sd
+12627370000000|Active|Humboldt|Cuddeback Union Elementary|http://www.humboldt.k12.ca.us/cuddeback_sd
+12627450000000|Active|Humboldt|Cutten Elementary|http://www.humboldt.k12.ca.us/cutten_sd
+12627520000000|Merged|Humboldt|Eureka City Elementary|No Data
+12627600000000|Merged|Humboldt|Eureka City High|No Data
+12627780000000|Merged|Humboldt|Ferndale Elementary|No Data
+12627860000000|Merged|Humboldt|Ferndale Union High|No Data
+12627940000000|Active|Humboldt|Fieldbrook Elementary|http://www.fbk8.org
+12628020000000|Closed|Humboldt|Fortuna Union Elementary|http://www.humboldt.k12.ca.us/fortuna_un
+12628100000000|Active|Humboldt|Fortuna Union High|http://www.fuhsdistrict.org
+12628280000000|Active|Humboldt|Freshwater Elementary|http://www.freshwatersd.org
+12628360000000|Active|Humboldt|Garfield Elementary|http://www.humboldt.k12.ca.us/garfield_sd
+12628510000000|Active|Humboldt|Green Point Elementary|http://www.humboldt.k12.ca.us/greenpoint_sd
+12628690000000|Closed|Humboldt|Grizzly Bluff Elementary|No Data
+12628850000000|Active|Humboldt|Hydesville Elementary|http://www.humboldt.k12.ca.us/hydesville_sd
+12628930000000|Active|Humboldt|Jacoby Creek Elementary|http://www.jcsk8.org
+12629010000000|Active|Humboldt|Klamath-Trinity Joint Unified|http://www.ktjusd.k12.ca.us
+12629190000000|Active|Humboldt|Kneeland Elementary|http://www.humboldt.k12.ca.us/kneeland_sd
+12629270000000|Active|Humboldt|Loleta Union Elementary|http://www.humboldt.k12.ca.us/loleta_sd
+12629350000000|Active|Humboldt|Maple Creek Elementary|http://apps.humboldt.k12.ca.us/sites/mapleck_sd/
+12629430000000|Merged|Humboldt|Mattole Union Elementary|No Data
+12629500000000|Active|Humboldt|McKinleyville Union Elementary|http://mckusd.org
+12629680000000|Active|Humboldt|Orick Elementary|http://orickschool.org
+12629760000000|Active|Humboldt|Pacific Union Elementary|http://www.pacificunionschool.org
+12629840000000|Active|Humboldt|Peninsula Union|http://www.humboldt.k12.ca.us/peninsula_sd
+12630080000000|Active|Humboldt|Rio Dell Elementary|http://www.riodellschools.net
+12630160000000|Closed|Humboldt|Rohnerville Elementary|http://www.humboldt.k12.ca.us/rohnerville_sd/index.html
+12630240000000|Active|Humboldt|Scotia Union Elementary|http://scotiasd.hcoe.org
+12630320000000|Active|Humboldt|South Bay Union Elementary|http://www.southbayusd.org
+12630400000000|Active|Humboldt|Southern Humboldt Joint Unified|http://apps.humboldt.k12.ca.us/sohumwp/
+12630570000000|Active|Humboldt|Trinidad Union Elementary|http://www.trinidadusd.net
+12743930000000|Active|Humboldt|Humboldt County ROP|No Data
+12753740000000|Active|Humboldt|Ferndale Unified|http://www.ferndalek12.org
+12753820000000|Active|Humboldt|Mattole Unified|http://sites.google.com/site/mattoleunified/
+12755150000000|Active|Humboldt|Eureka City Schools|http://www.eurekacityschools.org
+12768020000000|Active|Humboldt|Fortuna Elementary|http://www.humboldt.k12.ca.us/fortuna_sd/
+13101320000000|Active|Imperial|Imperial County Office of Education|http://www.icoe.org
+13630730000000|Active|Imperial|Brawley Elementary|http://www.besd.org
+13630810000000|Active|Imperial|Brawley Union High|http://www.brawleyhigh.org
+13630990000000|Active|Imperial|Calexico Unified|http://www2.cusdk12.org
+13631070000000|Active|Imperial|Calipatria Unified|http://www.calipatriahornets.org
+13631150000000|Active|Imperial|Central Union High|http://www.cuhsd.net
+13631230000000|Active|Imperial|El Centro Elementary|http://www.ecesd.org
+13631310000000|Active|Imperial|Heber Elementary|http://hesdk8.org
+13631490000000|Active|Imperial|Holtville Unified|http://www.husd.net
+13631640000000|Active|Imperial|Imperial Unified|http://do.imperialusd.org/index.html
+13631720000000|Active|Imperial|Magnolia Union Elementary|http://www.magnoliatigers.com
+13631800000000|Active|Imperial|McCabe Union Elementary|http://www.muesd.net
+13631980000000|Active|Imperial|Meadows Union Elementary|http://www.meadowsunion.org
+13632060000000|Active|Imperial|Mulberry Elementary|No Data
+13632140000000|Active|Imperial|San Pasqual Valley Unified|http://www.sanpasqual.k12.ca.us
+13632220000000|Active|Imperial|Seeley Union Elementary|http://www.seeley.k12.ca.us
+13632300000000|Active|Imperial|Westmorland Union Elementary|http://www.wued.org
+13744010000000|Active|Imperial|Imperial Valley ROP|No Data
+14101400000000|Active|Inyo|Inyo County Office of Education|http://www.inyocoe.org
+14632480000000|Active|Inyo|Big Pine Unified|http://bigpineschools.org
+14632550000000|Closed|Inyo|Bishop Union Elementary|http://www.buesd.k12.ca.us
+14632630000000|Closed|Inyo|Bishop Joint Union High|http://www.buhs.k12.ca.us
+14632710000000|Active|Inyo|Death Valley Unified|No Data
+14632890000000|Active|Inyo|Lone Pine Unified|http://www.lpusd.k12.ca.us
+14632970000000|Active|Inyo|Owens Valley Unified|http://www.ovusd.org
+14633050000000|Active|Inyo|Round Valley Joint Elementary|http://rvjesd-ca.schoolloop.com/
+14740700000000|Closed|Inyo|Inyo County ROP|http://www.inyo.k12.ca.us
+14766870000000|Active|Inyo|Bishop Unified|http://www.bishopschools.org
+15101570000000|Active|Kern|Kern County Office of Education|http://www.kern.org
+15633130000000|Active|Kern|Arvin Union|http://www.arvinschools.com
+15633210000000|Active|Kern|Bakersfield City|http://www.bcsd.com
+15633390000000|Active|Kern|Beardsley Elementary|http://www.beardsleyschool.org
+15633470000000|Active|Kern|Belridge Elementary|http://www.belridgeschool.org
+15633540000000|Active|Kern|Blake Elementary|http://kcsos.kern.org/blakesd
+15633620000000|Active|Kern|Panama-Buena Vista Union|http://www.pbvusd.k12.ca.us
+15633700000000|Active|Kern|Buttonwillow Union Elementary|http://buttonwillowschool.com
+15633880000000|Active|Kern|Caliente Union Elementary|http://calienteschooldistrict.org
+15633960000000|Closed|Kern|China Lake Joint Elementary|No Data
+15634040000000|Active|Kern|Delano Union Elementary|http://www.duesd.org
+15634120000000|Active|Kern|Delano Joint Union High|http://www.djuhsd.org
+15634200000000|Active|Kern|Di Giorgio Elementary|http://www.digiorgio.k12.ca.us
+15634380000000|Active|Kern|Edison Elementary|http://www.edison.k12.ca.us
+15634460000000|Active|Kern|Elk Hills Elementary|http://www.elkhills.k12.ca.us
+15634530000000|Merged|Kern|El Tejon Union|No Data
+15634610000000|Active|Kern|Fairfax Elementary|http://www.fairfax.k12.ca.us
+15634790000000|Active|Kern|Fruitvale Elementary|http://www.fruitvale.k12.ca.us/district
+15634870000000|Active|Kern|General Shafter Elementary|http://www.generalshafter.org
+15634950000000|Closed|Kern|Greeley Elementary|No Data
+15635030000000|Active|Kern|Greenfield Union|http://www.gfusd.net
+15635290000000|Active|Kern|Kern High|http://www.kernhigh.org
+15635450000000|Active|Kern|Kernville Union Elementary|http://www.kernvilleusd.org
+15635520000000|Active|Kern|Lakeside Union|http://www.lakesideusd.org
+15635600000000|Active|Kern|Lamont Elementary|http://www.lamontschooldistrict.org
+15635780000000|Active|Kern|Richland Union Elementary|http://www.rsdshafter.org
+15635860000000|Active|Kern|Linns Valley-Poso Flat Union|http://kcsos.kern.org/linnsvalley
+15635940000000|Active|Kern|Lost Hills Union Elementary|No Data
+15636100000000|Active|Kern|Maple Elementary|http://www.maple.k12.ca.us
+15636280000000|Active|Kern|Maricopa Unified|http://www.maricopaschools.org
+15636360000000|Merged|Kern|McFarland Unified|No Data
+15636510000000|Active|Kern|McKittrick Elementary|http://mckittrickschool.org
+15636690000000|Active|Kern|Midway Elementary|http://www.midwayschooldistrict.org
+15636770000000|Active|Kern|Mojave Unified|http://www.mojave.k12.ca.us
+15636850000000|Active|Kern|Muroc Joint Unified|http://www.muroc.k12.ca.us
+15636930000000|Active|Kern|Norris Elementary|http://www.norris.k12.ca.us
+15637010000000|Merged|Kern|Panama Union Elementary|No Data
+15637190000000|Active|Kern|Pond Union Elementary|http://www.pond.k12.ca.us
+15637270000000|Closed|Kern|Rand Joint Elementary|No Data
+15637350000000|Merged|Kern|Richland Elementary|No Data
+15637430000000|Closed|Kern|Rio Bravo Union Elementary|No Data
+15637500000000|Active|Kern|Rosedale Union Elementary|http://www.ruesd.net
+15637680000000|Active|Kern|Semitropic Elementary|http://sesd-sesd-ca.schoolloop.com/
+15637760000000|Active|Kern|Southern Kern Unified|http://www.skusd.k12.ca.us
+15637840000000|Active|Kern|South Fork Union|http://www.southforkschool.org
+15637920000000|Active|Kern|Standard Elementary|http://www.standardschools.net
+15638000000000|Active|Kern|Taft City|http://www.taftcityschools.org
+15638180000000|Active|Kern|Taft Union High|http://www.taftunion.org
+15638260000000|Active|Kern|Tehachapi Unified|http://www.teh.k12.ca.us
+15638340000000|Active|Kern|Vineland Elementary|http://vineland.k12.ca.us
+15638420000000|Active|Kern|Wasco Union Elementary|http://www.wuesd.org
+15638590000000|Active|Kern|Wasco Union High|http://www.wascouhsd.org/
+15735440000000|Active|Kern|Rio Bravo-Greeley Union Elementary|http://www.rbgusd.k12.ca.us
+15737420000000|Active|Kern|Sierra Sands Unified|http://www.ssusd.org
+15739080000000|Active|Kern|McFarland Unified|http://www.mcfarlandusd.com
+15741610000000|Closed|Kern|West Side ROP|No Data
+15747570000000|Active|Kern|North Kern Vocational Training Center|No Data
+15747650000000|Active|Kern|Kern County ROP|http://www.kern.org
+15748070000000|Active|Kern|Kern High ROC|No Data
+15751680000000|Active|Kern|El Tejon Unified|http://www.el-tejon.k12.ca.us/
+15756300000000|Closed|Kern|SBE - Ridgecrest Charter|http://www.ridgecrestcharterschool.org
+16101650000000|Active|Kings|Kings County Office of Education|http://www.kingscoe.org
+16638750000000|Active|Kings|Armona Union Elementary|http://www.auesd.com
+16638830000000|Active|Kings|Central Union Elementary|http://www.central.k12.ca.us/district
+16638910000000|Active|Kings|Corcoran Joint Unified|http://www.corcoranunified.com
+16639090000000|Closed|Kings|Delta View Joint Union Elementary|http://www.dvjusd.k12.ca.us
+16639170000000|Active|Kings|Hanford Elementary|http://www.hesd.k12.ca.us/
+16639250000000|Active|Kings|Hanford Joint Union High|http://www.hjuhsd.k12.ca.us
+16639330000000|Active|Kings|Island Union Elementary|http://www.island.k12.ca.us
+16639410000000|Active|Kings|Kings River-Hardwick Union Elementary|http://www.kingsriverhardwick.com
+16639580000000|Active|Kings|Kit Carson Union Elementary|http://www.kitcarsonschool.com
+16639660000000|Active|Kings|Lakeside Union Elementary|http://www.lakeside.k12.ca.us
+16639740000000|Active|Kings|Lemoore Union Elementary|http://www.luesd.k12.ca.us
+16639820000000|Active|Kings|Lemoore Union High|http://www.luhsd.k12.ca.us
+16639900000000|Active|Kings|Pioneer Union Elementary|http://www.puesd.net
+16739320000000|Active|Kings|Reef-Sunset Unified|http://www.rsusd.net
+16747080000000|Active|Kings|Kings County ROP|No Data
+17101730000000|Active|Lake|Lake County Office of Education|http://www.lakecoe.org
+17640140000000|Active|Lake|Kelseyville Unified|http://www.kvusd.org
+17640220000000|Active|Lake|Konocti Unified|http://www.konoctiusd.org
+17640300000000|Active|Lake|Lakeport Unified|http://www.lakeport.k12.ca.us
+17640480000000|Active|Lake|Lucerne Elementary|http://www.lucerne.k12.ca.us
+17640550000000|Active|Lake|Middletown Unified|http://www.middletownusd.org
+17640630000000|Merged|Lake|Upper Lake Union Elementary|http://www.ulesd.org
+17640710000000|Merged|Lake|Upper Lake Union High|http://www.ulhs.k12.ca.us
+17744190000000|Active|Lake|Lake County ROP|No Data
+17769760000000|Active|Lake|Upper Lake Unified|http://www.ulusd.org
+18101810000000|Active|Lassen|Lassen County Office of Education|http://www.lcoe.org
+18640890000000|Active|Lassen|Big Valley Joint Unified|http://www.bigvalleyschool.org
+18640970000000|Merged|Lassen|Herlong Elementary|No Data
+18641050000000|Active|Lassen|Janesville Union Elementary|http://www.janesvilleschool.org
+18641130000000|Active|Lassen|Johnstonville Elementary|http://www.johnstonville.org/
+18641210000000|Closed|Lassen|Lake Elementary|No Data
+18641390000000|Active|Lassen|Lassen Union High|http://district.lassenhigh.org
+18641540000000|Merged|Lassen|Long Valley Elementary|No Data
+18641620000000|Active|Lassen|Ravendale-Termo Elementary|http://www.juniperridge.org
+18641700000000|Active|Lassen|Richmond Elementary|http://www.richmondelementary.com
+18641880000000|Active|Lassen|Shaffer Union Elementary|http://www.shafferschool.com
+18641960000000|Active|Lassen|Susanville Elementary|http://www.susanvillesd.org
+18642040000000|Active|Lassen|Westwood Unified|http://westwoodusd.org
+18747400000000|Active|Lassen|Lassen ROP|No Data
+18750360000000|Active|Lassen|Fort Sage Unified|No Data
+18767290000000|Closed|Lassen|SBE - Long Valley Charter|http://www.longvalleycs.org
+19101990000000|Active|Los Angeles|Los Angeles County Office of Education|http://www.lacoe.edu
+19111970000000|Merged|Los Angeles|Los Angeles County Special Ed|No Data
+19191900000000|Merged|Los Angeles|Los Angeles County Superintendent|No Data
+19642120000000|Active|Los Angeles|ABC Unified|http://www.abcusd.us
+19642200000000|Merged|Los Angeles|Alhambra City Elementary|No Data
+19642380000000|Merged|Los Angeles|Alhambra City High|No Data
+19642460000000|Active|Los Angeles|Antelope Valley Union High|http://www.avdistrict.org
+19642610000000|Active|Los Angeles|Arcadia Unified|http://www.ausd.k12.ca.us
+19642790000000|Active|Los Angeles|Azusa Unified|http://www.azusa.org
+19642870000000|Active|Los Angeles|Baldwin Park Unified|http://www.bpusd.net
+19642950000000|Active|Los Angeles|Bassett Unified|http://www.bassettusd.org
+19643030000000|Active|Los Angeles|Bellflower Unified|http://www.busd.k12.ca.us
+19643110000000|Active|Los Angeles|Beverly Hills Unified|http://www.bhusd.org
+19643290000000|Active|Los Angeles|Bonita Unified|http://www.bonita.k12.ca.us
+19643370000000|Active|Los Angeles|Burbank Unified|http://www.burbankusd.org
+19643450000000|Active|Los Angeles|Castaic Union|http://www.castaicusd.com
+19643520000000|Active|Los Angeles|Centinela Valley Union High|http://www.centinela.k12.ca.us
+19643780000000|Active|Los Angeles|Charter Oak Unified|http://www.cousd.net
+19643940000000|Active|Los Angeles|Claremont Unified|http://www.cusd.claremont.edu
+19644020000000|Closed|Los Angeles|Compton City Elementary|No Data
+19644100000000|Closed|Los Angeles|Compton Union High|No Data
+19644360000000|Active|Los Angeles|Covina-Valley Unified|http://www.c-vusd.org
+19644440000000|Active|Los Angeles|Culver City Unified|http://www.ccusd.org
+19644510000000|Active|Los Angeles|Downey Unified|http://www.dusd.net
+19644690000000|Active|Los Angeles|Duarte Unified|http://www.duarteusd.org
+19644770000000|Active|Los Angeles|Eastside Union Elementary|http://www.eastsideusd.org
+19644850000000|Active|Los Angeles|East Whittier City Elementary|http://www.ewcsd.org
+19645010000000|Active|Los Angeles|El Monte City|http://www.emcsd.org
+19645190000000|Active|Los Angeles|El Monte Union High|http://www.emuhsd.org
+19645270000000|Active|Los Angeles|El Rancho Unified|http://erusd.org
+19645350000000|Active|Los Angeles|El Segundo Unified|http://www.elsegundousd.com
+19645430000000|Closed|Los Angeles|Enterprise City Elementary|No Data
+19645500000000|Active|Los Angeles|Garvey Elementary|http://www.garvey.k12.ca.us
+19645680000000|Active|Los Angeles|Glendale Unified|http://www.gusd.net
+19645760000000|Active|Los Angeles|Glendora Unified|http://www.glendora.k12.ca.us
+19645840000000|Active|Los Angeles|Gorman Joint|http://gorman.k12.ca.us
+19645920000000|Active|Los Angeles|Hawthorne|http://www.hawthorne.k12.ca.us
+19646000000000|Active|Los Angeles|Hermosa Beach City Elementary|http://www.hbcsd.org
+19646180000000|Closed|Los Angeles|Hudson Elementary|No Data
+19646260000000|Active|Los Angeles|Hughes-Elizabeth Lakes Union Elementary|http://helus.org
+19646340000000|Active|Los Angeles|Inglewood Unified|http://inglewoodusd.com
+19646420000000|Active|Los Angeles|Keppel Union Elementary|http://www.keppelunion.org
+19646590000000|Active|Los Angeles|La Canada Unified|http://www.lcusd.net
+19646670000000|Active|Los Angeles|Lancaster Elementary|http://www.lancsd.org
+19646750000000|Closed|Los Angeles|Lapuente Union High|No Data
+19646830000000|Active|Los Angeles|Las Virgenes Unified|http://www.lvusd.org
+19646910000000|Active|Los Angeles|Lawndale Elementary|http://www.lawndalesd.net
+19647090000000|Active|Los Angeles|Lennox|http://www.lennox.k12.ca.us
+19647170000000|Active|Los Angeles|Little Lake City Elementary|http://www.llcsd.net
+19647250000000|Active|Los Angeles|Long Beach Unified|http://www.lbschools.net
+19647330000000|Active|Los Angeles|Los Angeles Unified|http://www.lausd.net
+19647580000000|Active|Los Angeles|Los Nietos|http://www.losnietos.k12.ca.us/
+19647660000000|Active|Los Angeles|Lowell Joint|http://www.ljsd.org
+19647740000000|Active|Los Angeles|Lynwood Unified|http://www.lynwood.k12.ca.us
+19647820000000|Merged|Los Angeles|Manhattan Beach City Elementar|No Data
+19647900000000|Active|Los Angeles|Monrovia Unified|http://www.monroviaschools.net
+19648080000000|Active|Los Angeles|Montebello Unified|http://www.montebello.k12.ca.us
+19648160000000|Active|Los Angeles|Mountain View Elementary|http://www.mtviewschools.com
+19648320000000|Active|Los Angeles|Newhall|http://www.newhallschooldistrict.net
+19648400000000|Active|Los Angeles|Norwalk-La Mirada Unified|http://www.nlmusd.org
+19648570000000|Active|Los Angeles|Palmdale Elementary|http://www.palmdalesd.org
+19648650000000|Active|Los Angeles|Palos Verdes Peninsula Unified|http://www.pvpusd.net
+19648730000000|Active|Los Angeles|Paramount Unified|http://www.paramount.k12.ca.us
+19648810000000|Active|Los Angeles|Pasadena Unified|http://www.pusd.us
+19649070000000|Active|Los Angeles|Pomona Unified|http://www.pomona.k12.ca.us
+19649150000000|Merged|Los Angeles|Redondo Beach City Elementary|No Data
+19649310000000|Active|Los Angeles|Rosemead Elementary|http://www.rosemead.k12.ca.us
+19649490000000|Closed|Los Angeles|Rowland Elementary|No Data
+19649560000000|Merged|Los Angeles|San Gabriel Elementary|No Data
+19649640000000|Active|Los Angeles|San Marino Unified|http://www.smusd.us
+19649800000000|Active|Los Angeles|Santa Monica-Malibu Unified|http://www.smmusd.org
+19649980000000|Active|Los Angeles|Saugus Union|http://www.saugususd.org
+19650030000000|Merged|Los Angeles|Soledad-Agua Dulce Union Eleme|No Data
+19650110000000|Merged|Los Angeles|South Bay Union High|No Data
+19650290000000|Active|Los Angeles|South Pasadena Unified|http://www.spusd.net
+19650370000000|Active|Los Angeles|South Whittier Elementary|http://www.swhittier.k12.ca.us/
+19650450000000|Active|Los Angeles|Sulphur Springs Union|http://www.sssd.k12.ca.us
+19650520000000|Active|Los Angeles|Temple City Unified|http://www.tcusd.net
+19650600000000|Active|Los Angeles|Torrance Unified|http://www.tusd.org
+19650780000000|Active|Los Angeles|Valle Lindo Elementary|http://www.vallelindo.k12.ca.us
+19650860000000|Merged|Los Angeles|Walnut Elem|No Data
+19650940000000|Active|Los Angeles|West Covina Unified|http://www.wcusd.org
+19651020000000|Active|Los Angeles|Westside Union Elementary|http://www.westside.k12.ca.us
+19651100000000|Active|Los Angeles|Whittier City Elementary|http://www.whittiercity.net
+19651280000000|Active|Los Angeles|Whittier Union High|http://www.wuhsd.k12.ca.us
+19651360000000|Active|Los Angeles|William S. Hart Union High|http://www.hartdistrict.org
+19651440000000|Merged|Los Angeles|Willowbrook Elem|No Data
+19651510000000|Active|Los Angeles|Wilsona Elementary|http://www.wilsonasd.net
+19651690000000|Closed|Los Angeles|Wiseburn Elementary|http://www.wiseburn.k12.ca.us
+19734370000000|Active|Los Angeles|Compton Unified|http://www.compton.k12.ca.us
+19734450000000|Active|Los Angeles|Hacienda la Puente Unified|http://www.hlpusd.k12.ca.us
+19734520000000|Active|Los Angeles|Rowland Unified|http://www.rowlandschools.org
+19734600000000|Active|Los Angeles|Walnut Valley Unified|http://www.wvusd.k12.ca.us
+19740880000000|Active|Los Angeles|La Puente Valley ROP|http://www.lpvrop.org
+19740960000000|Closed|Los Angeles|Southeast ROP|No Data
+19741950000000|Active|Los Angeles|East San Gabriel Valley ROP|No Data
+19743280000000|Active|Los Angeles|Tri-Cities ROP|http://www.tricitiesrop.org
+19743360000000|Active|Los Angeles|Southern California ROC|http://www.scroc.com
+19744270000000|Active|Los Angeles|Long Beach Unified ROP|No Data
+19744350000000|Active|Los Angeles|Los Angeles Unified ROCP|No Data
+19744430000000|Active|Los Angeles|Los Angeles County ROP|No Data
+19747730000000|Active|Los Angeles|Hart ROP|No Data
+19747990000000|Active|Los Angeles|Antelope Valley ROP|http://www.avrop.avhsd.org
+19748310000000|Active|Los Angeles|Compton Unified ROP|No Data
+19748490000000|Active|Los Angeles|San Antonio ROP|No Data
+19752910000000|Active|Los Angeles|San Gabriel Unified|http://www.sgusd.k12.ca.us
+19753090000000|Active|Los Angeles|Acton-Agua Dulce Unified|http://www.aadusd.k12.ca.us
+19753330000000|Active|Los Angeles|Manhattan Beach Unified|http://www.mbusd.org
+19753410000000|Active|Los Angeles|Redondo Beach Unified|http://www.rbusd.org
+19756630000000|Active|Los Angeles|SBE - New West Charter|http://www.newwestcharter.org
+19756710000000|Closed|Los Angeles|SBE -  Animo Inglewood Charter|http://www.greendot.org/inglewood
+19756970000000|Active|Los Angeles|SBE - The School of Arts and Enterprise|http://www.thesae.k12.ca.us/main/welcome.shtml
+19757130000000|Active|Los Angeles|Alhambra Unified|http://www.ausd.us
+19763310000000|Closed|Los Angeles|SBE - Academy of Culture and Technology (ACT)|No Data
+19764970000000|Closed|Los Angeles|SBE - Lifeline Education Charter|No Data
+19765210000000|Closed|Los Angeles|SBE - Doris Topsy-Elvord Academy|http://www.gomeca.org
+19765470000000|Closed|Los Angeles|SBE - Barack Obama Charter|http://barackobamacharter.org/
+19766790000000|Closed|Los Angeles|SBE - Ingenium Charter|http://www.ingeniumcharter.org/
+19767370000000|Closed|Los Angeles|SBE - Today's Fresh Start Charter|No Data
+19768690000000|Active|Los Angeles|Wiseburn Unified|http://www.wiseburn.org
+19768850000000|Closed|Los Angeles|SBE - Anahuacalmecac International University Preparatory of North America|http://www.dignidad.org
+19769680000000|Active|Los Angeles|SBE - Academia Avance Charter|http://www.academiaavance.org
+19769920000000|Active|Los Angeles|SBE - Prepa Tec Los Angeles High|http://www.prepatechighschool.org
+19770160000000|Active|Los Angeles|California Advancing Pathways for Students in Los Angeles County ROC/P|http://www.CalAPS.org
+19770730000000|Closed|Los Angeles|SBE - Celerity Rolas|http://www.celerityschools.org/california/
+19770810000000|Active|Los Angeles|SBE - Celerity Himalia|http://isanaacademies.org
+19772890000000|Active|Los Angeles|SBE - Los Angeles College Prep Academy|http://www.laicharter.org
+20102070000000|Active|Madera|Madera County Superintendent of Schools|http://www.mcsos.org
+20624550000000|Merged|Madera|Sierra Jt. Union High|No Data
+20651770000000|Active|Madera|Alview-Dairyland Union Elementary|http://www.adusd.k12.ca.us
+20651850000000|Active|Madera|Bass Lake Joint Union Elementary|http://www.basslakeschooldistrict.com
+20651930000000|Active|Madera|Chowchilla Elementary|http://www.chowchillaelem.k12.ca.us
+20652010000000|Active|Madera|Chowchilla Union High|http://www.chowchillahigh.k12.ca.us
+20652190000000|Merged|Madera|Coarsegold Union Elementary|http://www.coarsegoldusd.com/main.html
+20652270000000|Closed|Madera|Dairyland Union Elementary|No Data
+20652430000000|Active|Madera|Madera Unified|http://www.madera.k12.ca.us
+20652500000000|Merged|Madera|North Fork Union Elementary|No Data
+20652680000000|Merged|Madera|Oakhurst Union Elementary|No Data
+20652760000000|Active|Madera|Raymond-Knowles Union Elementary|http://www.rkusd.k12.ca.us
+20652840000000|Merged|Madera|Spring Valley Elementary|No Data
+20652920000000|Merged|Madera|Wasuma Union Elementary|No Data
+20737340000000|Merged|Madera|Yosemite Joint Union High|http://www.yosemiteuhsd.com
+20751350000000|Merged|Madera|Chawanakee Jt. Elementary|No Data
+20754240000000|Merged|Madera|Minarets Jt. Union High|No Data
+20755800000000|Active|Madera|Golden Valley Unified|http://www.gvusd.org
+20756060000000|Active|Madera|Chawanakee Unified|http://www.chawanakee.k12.ca.us
+20764140000000|Active|Madera|Yosemite Unified|http://www.yosemiteusd.com
+21102150000000|Active|Marin|Marin County Office of Education|http://www.marinschools.org
+21653000000000|Active|Marin|Bolinas-Stinson Union|http://www.bolinas-stinson.org
+21653180000000|Active|Marin|Miller Creek Elementary|http://www.millercreeksd.org
+21653260000000|Merged|Marin|Fairfax Elementary|No Data
+21653340000000|Active|Marin|Kentfield Elementary|http://www.kentfieldschools.org/district
+21653420000000|Active|Marin|Laguna Joint Elementary|http://www.lagunaschool.org
+21653590000000|Active|Marin|Lagunitas Elementary|http://www.lagunitas.org
+21653670000000|Active|Marin|Larkspur-Corte Madera|http://www.lcmschools.org
+21653750000000|Active|Marin|Lincoln Elementary|No Data
+21653910000000|Active|Marin|Mill Valley Elementary|http://www.mvschools.org
+21654090000000|Active|Marin|Nicasio|http://www.nicasioschool.org
+21654170000000|Active|Marin|Novato Unified|http://www.nusd.org
+21654250000000|Active|Marin|Reed Union Elementary|http://www.reedschools.org
+21654330000000|Active|Marin|Ross Elementary|http://www.rossbears.org
+21654410000000|Merged|Marin|San Anselmo Elementary|No Data
+21654580000000|Active|Marin|San Rafael City Elementary|http://www.srcs.org
+21654660000000|Active|Marin|San Rafael City High|http://www.srcs.org
+21654740000000|Active|Marin|Sausalito Marin City|http://www.smcsd.org
+21654820000000|Active|Marin|Tamalpais Union High|http://www.tamdistrict.org
+21655160000000|Closed|Marin|Union Joint Elementary|http://mcoeweb.marin.k12.ca.us/rurals/union
+21733610000000|Active|Marin|Shoreline Unified|http://shorelineunified.org
+21746580000000|Active|Marin|Marin County ROP|No Data
+21750020000000|Active|Marin|Ross Valley Elementary|http://www.rossvalleyschools.org
+21770650000000|Active|Marin|SBE - Ross Valley Elementary|http://www.rossvalleycharter.org
+22102230000000|Active|Mariposa|Mariposa County Office of Education|http://www.mariposa.k12.ca.us
+22655320000000|Active|Mariposa|Mariposa County Unified|http://www.mcusd.org
+23102310000000|Active|Mendocino|Mendocino County Office of Education|http://www.mcoe.us
+23655400000000|Active|Mendocino|Anderson Valley Unified|http://www.avusd.k12.ca.us
+23655570000000|Active|Mendocino|Arena Union Elementary|http://pointarenaschools.org/aues/
+23655650000000|Active|Mendocino|Fort Bragg Unified|http://www.fbusd.us
+23655730000000|Active|Mendocino|Manchester Union Elementary|http://www.mcoe.us/d/schools
+23655810000000|Active|Mendocino|Mendocino Unified|http://mendocinousd.org
+23655990000000|Active|Mendocino|Point Arena Joint Union High|http://www.pointarenaschools.org
+23656070000000|Active|Mendocino|Round Valley Unified|http://www.roundvalleyschools.org/
+23656150000000|Active|Mendocino|Ukiah Unified|http://www.uusd.net
+23656230000000|Active|Mendocino|Willits Unified|http://www.willitsunified.net
+23738660000000|Active|Mendocino|Potter Valley Community Unified|http://www.pottervalleyschools.us/
+23739160000000|Active|Mendocino|Laytonville Unified|http://www.lusd.us
+23744680000000|Active|Mendocino|Mendocino County ROC/ROP|No Data
+23752180000000|Active|Mendocino|Leggett Valley Unified|http://www.leggett.k12.ca.us
+24102490000000|Active|Merced|Merced County Office of Education|http://www.mcoe.org
+24656310000000|Active|Merced|Atwater Elementary|http://www.aesd.edu
+24656490000000|Active|Merced|Ballico-Cressey Elementary|http://www.ballicocressey.com
+24656560000000|Merged|Merced|Delhi Elementary|http://www.delhi.k12.ca.us/
+24656640000000|Merged|Merced|Dos Palos Joint Union Elementa|No Data
+24656720000000|Merged|Merced|Dos Palos Joint Union High|No Data
+24656800000000|Active|Merced|El Nido Elementary|http://www.elnidoschool.org
+24656980000000|Active|Merced|Hilmar Unified|http://www.hilmar.k12.ca.us
+24657060000000|Closed|Merced|Hopeton Elementary|No Data
+24657220000000|Active|Merced|Le Grand Union Elementary|http://www.legrand.k12.ca.us
+24657300000000|Active|Merced|Le Grand Union High|http://www.lghs.k12.ca.us
+24657480000000|Active|Merced|Livingston Union|http://www.livingstonusd.org
+24657550000000|Active|Merced|Los Banos Unified|http://www.losbanosusd.k12.ca.us
+24657630000000|Active|Merced|McSwain Union Elementary|http://www.mcswain.k12.ca.us
+24657710000000|Active|Merced|Merced City Elementary|http://www.mcsd.k12.ca.us
+24657890000000|Active|Merced|Merced Union High|http://www.muhsd.org
+24658050000000|Closed|Merced|Newman-Gustine Jt. Unified|No Data
+24658130000000|Active|Merced|Plainsburg Union Elementary|http://www.plainsburg.k12.ca.us
+24658210000000|Active|Merced|Planada Elementary|http://www.planada.org
+24658390000000|Active|Merced|Snelling-Merced Falls Union Elementary|http://www.snelling.k12.ca.us
+24658540000000|Closed|Merced|Washington Elementary|No Data
+24658620000000|Active|Merced|Weaver Union|http://www.weaverusd.org
+24658700000000|Active|Merced|Winton|http://www.winton.k12.ca.us
+24736190000000|Active|Merced|Gustine Unified|http://www.gustineusd.org
+24737260000000|Active|Merced|Merced River Union Elementary|http://www.mrsd.us
+24744760000000|Active|Merced|Merced County ROP|http://www.mcoe.org
+24753170000000|Active|Merced|Dos Palos Oro Loma Joint Unified|http://www.dpol.net
+24753660000000|Active|Merced|Delhi Unified|http://www.delhi.k12.ca.us
+25102560000000|Active|Modoc|Modoc County Office of Education|http://www.modoccoe.k12.ca.us
+25658880000000|Closed|Modoc|Modoc-Tulelake Jt. Unified|No Data
+25658960000000|Active|Modoc|Surprise Valley Joint Unified|http://www.svjusd.org
+25735850000000|Active|Modoc|Modoc Joint Unified|http://www.modoc.k12.ca.us
+25735930000000|Active|Modoc|Tulelake Basin Joint Unified|http://www.tbjusd.org
+25744500000000|Active|Modoc|Modoc County ROP|No Data
+26102640000000|Active|Mono|Mono County Office of Education|http://www.monocoe.org
+26659040000000|Closed|Mono|Antelope Union Elementary|No Data
+26659120000000|Closed|Mono|Benton Elementary|No Data
+26659200000000|Closed|Mono|Bridgeport Elementary|No Data
+26659380000000|Closed|Mono|Lee Vining Union Elementary|No Data
+26659460000000|Closed|Mono|Mammoth Elementary|No Data
+26659530000000|Closed|Mono|Mono County High|No Data
+26736680000000|Active|Mono|Eastern Sierra Unified|http://www.esusd.org
+26736920000000|Active|Mono|Mammoth Unified|http://www.mammothusd.org
+26748980000000|Active|Mono|Mono County ROC/P|http://monocoe.k12.ca.us
+27102720000000|Active|Monterey|Monterey County Office of Education|http://www.montereycoe.org
+27659610000000|Active|Monterey|Alisal Union|http://www.alisal.org
+27659790000000|Active|Monterey|Bradley Union Elementary|http://www.bradleyusd.org
+27659870000000|Active|Monterey|Carmel Unified|http://www.carmelunified.org
+27659950000000|Active|Monterey|Chualar Union|http://chualarusd.org/
+27660010000000|Merged|Monterey|Gonzales Union Elementary|No Data
+27660190000000|Merged|Monterey|Gonzales Union High|No Data
+27660270000000|Active|Monterey|Graves Elementary|http://schools.monterey.coe.org/~graves/
+27660350000000|Active|Monterey|Greenfield Union Elementary|http://www.greenfield.k12.ca.us
+27660500000000|Active|Monterey|King City Union|http://www.kcusd.org
+27660680000000|Active|Monterey|South Monterey County Joint Union High|http://www.smcjuhsd.org
+27660760000000|Active|Monterey|Lagunita Elementary|http://sites.google.com/site/lagunitaschooldistrict/
+27660840000000|Active|Monterey|Mission Union Elementary|No Data
+27660920000000|Active|Monterey|Monterey Peninsula Unified|http://www.mpusd.k12.ca.us
+27661260000000|Merged|Monterey|Pacific Elementary|No Data
+27661340000000|Active|Monterey|Pacific Grove Unified|http://www.pgusd.org
+27661420000000|Active|Monterey|Salinas City Elementary|http://www.salinascity.k12.ca.us/
+27661590000000|Active|Monterey|Salinas Union High|http://www.salinas.k12.ca.us
+27661670000000|Active|Monterey|San Antonio Union Elementary|http://www.sanantoniousd.org
+27661750000000|Active|Monterey|San Ardo Union Elementary|http://sausd-k12-pt.schoolloop.com/
+27661830000000|Active|Monterey|San Lucas Union Elementary|http://www.sanlucasschool.com
+27661910000000|Active|Monterey|Santa Rita Union Elementary|http://www.santaritaschools.org
+27662090000000|Merged|Monterey|Soledad Union Elementary|No Data
+27662250000000|Active|Monterey|Spreckels Union Elementary|http://spreckelsdistrict.org/
+27662330000000|Active|Monterey|Washington Union Elementary|http://www.washingtonusd.org
+27738250000000|Active|Monterey|North Monterey County Unified|http://www.nmcusd.org
+27740540000000|Active|Monterey|Mission Trails ROP|No Data
+27751500000000|Active|Monterey|Big Sur Unified|http://bigsurunified.org
+27754400000000|Active|Monterey|Soledad Unified|http://www.soledadusd.org
+27754730000000|Active|Monterey|Gonzales Unified|http://www.gonzalesusd.net
+28102800000000|Active|Napa|Napa County Office of Education|http://www.napacoe.org
+28662410000000|Active|Napa|Calistoga Joint Unified|http://www.calistogaschools.org
+28662580000000|Active|Napa|Howell Mountain Elementary|http://www.hmesd.org
+28662660000000|Active|Napa|Napa Valley Unified|http://www.nvusd.org
+28662820000000|Active|Napa|Pope Valley Union Elementary|http://www.pvk8.org
+28662900000000|Active|Napa|Saint Helena Unified|http://www.sthelenaunified.org
+28744840000000|Active|Napa|Napa County ROP|No Data
+29102980000000|Active|Nevada|Nevada County Office of Education|http://www.nevco.org
+29663080000000|Closed|Nevada|Cherokee Elementary|No Data
+29663160000000|Active|Nevada|Chicago Park Elementary|http://www.chicagoparkschool.org
+29663240000000|Active|Nevada|Clear Creek Elementary|http://www.clearcreekschool.org
+29663320000000|Active|Nevada|Grass Valley Elementary|http://www.gvsd.us
+29663400000000|Active|Nevada|Nevada City Elementary|http://www.ncsd.school
+29663570000000|Active|Nevada|Nevada Joint Union High|http://www.njuhsd.com
+29663650000000|Closed|Nevada|North San Juan Elementary|No Data
+29663730000000|Active|Nevada|Pleasant Ridge Union Elementary|http://www.prsd.us
+29663810000000|Closed|Nevada|Pleasant Valley Elementary|http://www.pennvalleyschools.k12.ca.us
+29663990000000|Closed|Nevada|Ready Springs Union Elementary|No Data
+29664070000000|Active|Nevada|Union Hill Elementary|http://www.uhsd.k12.ca.us
+29664150000000|Active|Nevada|Twin Ridges Elementary|http://www.twinridgeselementary.com
+29736270000000|Merged|Nevada|San Juan Ridge Union Elementar|No Data
+29768770000000|Active|Nevada|Penn Valley Union Elementary|http://www.pvuesd.org
+30103060000000|Active|Orange|Orange County Department of Education|http://www.ocde.us
+30664230000000|Active|Orange|Anaheim Elementary|http://www.aesd.org
+30664310000000|Active|Orange|Anaheim Union High|http://www.auhsd.us
+30664490000000|Active|Orange|Brea-Olinda Unified|http://www.bousd.k12.ca.us
+30664560000000|Active|Orange|Buena Park Elementary|http://www.bpsd.us
+30664640000000|Active|Orange|Capistrano Unified|http://www.capousd.org
+30664720000000|Active|Orange|Centralia Elementary|http://www.cesd.us
+30664800000000|Active|Orange|Cypress Elementary|http://www.cypsd.org
+30664980000000|Active|Orange|Fountain Valley Elementary|http://www.fvsd.us
+30665060000000|Active|Orange|Fullerton Elementary|http://www.fullertonsd.org/
+30665140000000|Active|Orange|Fullerton Joint Union High|http://www.fjuhsd.k12.ca.us
+30665220000000|Active|Orange|Garden Grove Unified|http://www.ggusd.us
+30665300000000|Active|Orange|Huntington Beach City Elementary|http://www.hbcsd.us
+30665480000000|Active|Orange|Huntington Beach Union High|http://www.hbuhsd.edu
+30665550000000|Active|Orange|Laguna Beach Unified|http://www.lbusd.org
+30665630000000|Active|Orange|La Habra City Elementary|http://www.lahabraschools.org
+30665890000000|Active|Orange|Magnolia Elementary|http://www.magnoliasd.org
+30665970000000|Active|Orange|Newport-Mesa Unified|http://www.nmusd.us
+30666130000000|Active|Orange|Ocean View|http://www.ovsd.org
+30666210000000|Active|Orange|Orange Unified|http://www.orangeusd.org
+30666470000000|Active|Orange|Placentia-Yorba Linda Unified|http://www.pylusd.org
+30666620000000|Closed|Orange|San Joaquin Elementary|No Data
+30666700000000|Active|Orange|Santa Ana Unified|http://www.sausd.k12.ca.us
+30666960000000|Active|Orange|Savanna Elementary|http://www.savsd.org
+30667040000000|Merged|Orange|Seal Beach Elementary|No Data
+30667120000000|Closed|Orange|Trabuco Elementary|No Data
+30667380000000|Closed|Orange|Tustin Union High|No Data
+30667460000000|Active|Orange|Westminster|http://www.wsdk8.us
+30667530000000|Merged|Orange|Yorba Linda|No Data
+30736350000000|Active|Orange|Saddleback Valley Unified|http://www.svusd.k12.ca.us
+30736430000000|Active|Orange|Tustin Unified|http://www.tustin.k12.ca.us
+30736500000000|Active|Orange|Irvine Unified|http://www.iusd.org
+30739240000000|Active|Orange|Los Alamitos Unified|http://www.losal.org
+30741040000000|Active|Orange|North Orange County ROP-Adult|http://www.nocrop.org
+30741120000000|Active|Orange|College and Career Advantage|http://www.ccadvantage.org/
+30741200000000|Active|Orange|Coastline ROP|No Data
+30742520000000|Active|Orange|Central Orange County CTE Partnership (CTEp)|No Data
+30768930000000|Active|Orange|SBE - Magnolia Science Academy Santa Ana|http://www.msasa.magnoliapublicschools.org
+31103140000000|Active|Placer|Placer County Office of Education|http://www.placercoe.k12.ca.us
+31667610000000|Active|Placer|Ackerman Charter|http://www.ackerman.k12.ca.us
+31667790000000|Active|Placer|Alta-Dutch Flat Union Elementary|http://www.alta.k12.ca.us
+31667870000000|Active|Placer|Auburn Union Elementary|http://www.auburn.k12.ca.us
+31667950000000|Active|Placer|Colfax Elementary|http://www.colfax.k12.ca.us
+31668030000000|Active|Placer|Dry Creek Joint Elementary|http://www.drycreekschools.us
+31668110000000|Merged|Placer|Emigrant Gap Elementary|No Data
+31668290000000|Active|Placer|Eureka Union|http://www.eureka-usd.k12.ca.us
+31668370000000|Active|Placer|Foresthill Union Elementary|http://www.fusd.org
+31668450000000|Active|Placer|Loomis Union Elementary|http://www.loomis-usd.k12.ca.us
+31668520000000|Active|Placer|Newcastle Elementary|http://www.newcastle.k12.ca.us
+31668600000000|Closed|Placer|Ophir Elementary|http://www.ophir-esd.k12.ca.us
+31668780000000|Closed|Placer|Penryn Elementary|http://www.penryn-esd.k12.ca.us
+31668860000000|Active|Placer|Placer Hills Union Elementary|http://www.phusd.org
+31668940000000|Active|Placer|Placer Union High|http://www.puhsd.k12.ca.us
+31669020000000|Merged|Placer|Rocklin Elementary|No Data
+31669100000000|Active|Placer|Roseville City Elementary|http://www.rcsdk8.org
+31669280000000|Active|Placer|Roseville Joint Union High|http://www.rjuhsd.us
+31669440000000|Active|Placer|Tahoe-Truckee Unified|http://www.ttusd.org
+31669510000000|Active|Placer|Western Placer Unified|http://www.wpusd.org
+31747320000000|Active|Placer|Forty-Niner ROP|No Data
+31750850000000|Active|Placer|Rocklin Unified|http://www.rocklinusd.org
+31765700000000|Closed|Placer|SBE - Western Sierra Collegiate Academy|http://www.wscacademy.org
+32103220000000|Active|Plumas|Plumas County Office of Education|http://www.pcoe.k12.ca.us
+32669690000000|Active|Plumas|Plumas Unified|http://www.pcoe.k12.ca.us
+32742780000000|Active|Plumas|Plumas County ROP|No Data
+33103300000000|Active|Riverside|Riverside County Office of Education|http://www.rcoe.us
+33316250000000|Active|Riverside|California School for the Deaf-Riverside (State Special Schl)|http://www.csdr-cde.ca.gov
+33669770000000|Active|Riverside|Alvord Unified|http://www.alvord.k12.ca.us
+33669850000000|Active|Riverside|Banning Unified|http://www.banning.k12.ca.us
+33669930000000|Active|Riverside|Beaumont Unified|http://www.beaumontusd.us/
+33670090000000|Closed|Riverside|Coachella Elementary|No Data
+33670170000000|Closed|Riverside|Coachella Valley Jt. Union Hig|No Data
+33670330000000|Active|Riverside|Corona-Norco Unified|http://www.cnusd.k12.ca.us
+33670410000000|Active|Riverside|Desert Center Unified|http://dcusd.schoolblocks.com/
+33670580000000|Active|Riverside|Desert Sands Unified|http://www.dsusd.us/dsusd/
+33670660000000|Merged|Riverside|Lake Elsinore Union|No Data
+33670740000000|Merged|Riverside|Elsinore Union High|No Data
+33670820000000|Active|Riverside|Hemet Unified|http://www.hemetusd.org
+33670900000000|Active|Riverside|Jurupa Unified|http://www.jurupausd.org
+33671080000000|Closed|Riverside|Mecca Elementary|No Data
+33671160000000|Active|Riverside|Menifee Union Elementary|http://www.menifeeusd.org
+33671240000000|Active|Riverside|Moreno Valley Unified|http://www.mvusd.net
+33671400000000|Merged|Riverside|Murrieta Elementary|No Data
+33671570000000|Active|Riverside|Nuview Union|http://www.nuview.k12.ca.us
+33671650000000|Closed|Riverside|Oasis Joint Elementary|No Data
+33671730000000|Active|Riverside|Palm Springs Unified|http://www.psusd.us
+33671810000000|Active|Riverside|Palo Verde Unified|http://www.pvusd.us
+33671990000000|Active|Riverside|Perris Elementary|http://www.perrisesd.org
+33672070000000|Active|Riverside|Perris Union High|http://www.puhsd.org
+33672150000000|Active|Riverside|Riverside Unified|http://www.rusd.k12.ca.us
+33672310000000|Active|Riverside|Romoland Elementary|http://www.romoland.net
+33672490000000|Active|Riverside|San Jacinto Unified|http://www.sanjacinto.k12.ca.us
+33672560000000|Merged|Riverside|Temecula Union Elementary|No Data
+33672640000000|Closed|Riverside|Thermal Union Elementary|No Data
+33672720000000|Merged|Riverside|Val Verde Elementary|No Data
+33736760000000|Active|Riverside|Coachella Valley Unified|http://www.cvusd.us
+33744920000000|Active|Riverside|Riverside County Office Of Education ROP|No Data
+33751760000000|Active|Riverside|Lake Elsinore Unified|http://www.leusd.k12.ca.us
+33751920000000|Active|Riverside|Temecula Valley Unified|http://www.tvusd.k12.ca.us
+33752000000000|Active|Riverside|Murrieta Valley Unified|http://www.murrieta.k12.ca.us
+33752420000000|Active|Riverside|Val Verde Unified|http://www.valverde.edu
+33769430000000|Active|Riverside|SBE - Baypoint Preparatory Academy|http://baypoint.academy/
+34103480000000|Active|Sacramento|Sacramento County Office of Education|http://www.scoe.net
+34322760000000|Active|Sacramento|California Education Authority (CEA) Headquarters|No Data
+34672800000000|Active|Sacramento|Arcohe Union Elementary|http://www.arcohe.net
+34672980000000|Closed|Sacramento|Center Joint Elementary|No Data
+34673060000000|Merged|Sacramento|Del Paso Heights Elementary|http://www.delpaso.k12.ca.us
+34673140000000|Active|Sacramento|Elk Grove Unified|http://www.egusd.net
+34673220000000|Active|Sacramento|Elverta Joint Elementary|http://www.ejesd.net
+34673300000000|Active|Sacramento|Folsom-Cordova Unified|http://www.fcusd.org
+34673480000000|Active|Sacramento|Galt Joint Union Elementary|http://www.galt.k12.ca.us
+34673550000000|Active|Sacramento|Galt Joint Union High|http://www.ghsd.k12.ca.us/district
+34673630000000|Merged|Sacramento|Grant Joint Union High|http://www.grant.k12.ca.us
+34673890000000|Merged|Sacramento|Natomas Union Elementary|No Data
+34673970000000|Merged|Sacramento|North Sacramento Elementary|http://www.nssd.k12.ca.us
+34674050000000|Merged|Sacramento|Rio Linda Union Elementary|http://www.rlusd.org
+34674130000000|Active|Sacramento|River Delta Joint Unified|http://www.riverdelta.org
+34674210000000|Active|Sacramento|Robla Elementary|http://www.robla.k12.ca.us
+34674390000000|Active|Sacramento|Sacramento City Unified|http://www.scusd.edu
+34674470000000|Active|Sacramento|San Juan Unified|http://www.sanjuan.edu
+34739730000000|Active|Sacramento|Center Joint Unified|http://www.centerusd.org
+34745000000000|Active|Sacramento|Sacramento County ROP|No Data
+34748230000000|Closed|Sacramento|Marconi Technical Center (ROP/C)|No Data
+34752830000000|Active|Sacramento|Natomas Unified|http://natomasunified.org
+34765050000000|Active|Sacramento|Twin Rivers Unified|http://www.twinriversusd.org
+34769350000000|Closed|Sacramento|SBE - Paramount Collegiate Academy|http://www.pcaeducation.org
+35103550000000|Active|San Benito|San Benito County Office of Education|http://www.sbcoe.org
+35674540000000|Active|San Benito|Bitterwater-Tully Elementary|No Data
+35674620000000|Active|San Benito|Cienega Union Elementary|http://www.sbcoe.k12.ca.us/cienega.html
+35674700000000|Active|San Benito|Hollister|http://www.hesd.org
+35674880000000|Active|San Benito|Jefferson Elementary|http://www.sbcoe.k12.ca.us/districts/jefferson.html
+35674960000000|Closed|San Benito|New Idria Elementary|No Data
+35675040000000|Active|San Benito|North County Joint Union Elementary|http://www.ncjusd.k12.ca.us
+35675120000000|Closed|San Benito|Olympia Elementary|No Data
+35675200000000|Active|San Benito|Panoche Elementary|http://www.sbcoe.k12.ca.us/districts/panoche.html
+35675380000000|Active|San Benito|San Benito High|http://www.sbhsd.k12.ca.us
+35675460000000|Merged|San Benito|San Juan Union Elementary|No Data
+35675530000000|Active|San Benito|Southside Elementary|http://www.sbcoe.k12.ca.us/districts/southside.html
+35675610000000|Active|San Benito|Tres Pinos Union Elementary|http://www.sbcoe.k12.ca.us/tres.pinos.html
+35675790000000|Active|San Benito|Willow Grove Union Elementary|http://www.sbcoe.k12.ca.us/willow.grove.html
+35752590000000|Active|San Benito|Aromas - San Juan Unified|http://www.asjusd.k12.ca.us
+36103630000000|Active|San Bernardino|San Bernardino County Office of Education|http://www.sbcss.k12.ca.us
+36675870000000|Active|San Bernardino|Adelanto Elementary|http://www.aesd.net
+36675950000000|Active|San Bernardino|Alta Loma Elementary|http://www.alsd.k12.ca.us
+36676030000000|Merged|San Bernardino|Apple Valley Elementary|No Data
+36676110000000|Active|San Bernardino|Barstow Unified|http://www.barstow.k12.ca.us
+36676370000000|Active|San Bernardino|Bear Valley Unified|http://www.bearvalleyusd.org
+36676450000000|Active|San Bernardino|Central Elementary|http://www.csd-ca.schoolloop.com
+36676520000000|Active|San Bernardino|Chaffey Joint Union High|http://www.cjuhsd.net
+36676780000000|Active|San Bernardino|Chino Valley Unified|http://www.chino.k12.ca.us
+36676860000000|Active|San Bernardino|Colton Joint Unified|http://www.colton.k12.ca.us
+36676940000000|Active|San Bernardino|Cucamonga Elementary|http://www.cuca.k12.ca.us
+36677020000000|Active|San Bernardino|Etiwanda Elementary|http://www.etiwanda.k12.ca.us
+36677100000000|Active|San Bernardino|Fontana Unified|http://www.fusd.net
+36677280000000|Closed|San Bernardino|Guasti Elementary|No Data
+36677360000000|Active|San Bernardino|Helendale Elementary|http://www.helendalesd.org
+36677440000000|Merged|San Bernardino|Hesperia Elementary|No Data
+36677510000000|Closed|San Bernardino|Los Flores Elementary|No Data
+36677690000000|Merged|San Bernardino|Lucerne Valley Union Elementary|No Data
+36677770000000|Active|San Bernardino|Morongo Unified|http://www.morongo.k12.ca.us
+36677850000000|Active|San Bernardino|Mountain View Elementary|http://www.mtnview.k12.ca.us
+36677930000000|Active|San Bernardino|Mt. Baldy Joint Elementary|http://www.mtbaldy.k12.ca.us
+36678010000000|Active|San Bernardino|Needles Unified|http://www.needlesusd.org
+36678190000000|Active|San Bernardino|Ontario-Montclair|http://www.omsd.net
+36678270000000|Active|San Bernardino|Oro Grande|http://orogrande.net
+36678350000000|Closed|San Bernardino|Phelan Elementary|No Data
+36678430000000|Active|San Bernardino|Redlands Unified|http://www.redlands.k12.ca.us
+36678500000000|Active|San Bernardino|Rialto Unified|http://www.rialto.k12.ca.us
+36678680000000|Active|San Bernardino|Rim of the World Unified|http://www.rimsd.k12.ca.us
+36678760000000|Active|San Bernardino|San Bernardino City Unified|http://www.sbcusd.com
+36678920000000|Active|San Bernardino|Trona Joint Unified|http://www.tjusd.net
+36679000000000|Merged|San Bernardino|Upland Elementary|No Data
+36679180000000|Active|San Bernardino|Victor Elementary|http://www.vesd.net
+36679340000000|Active|San Bernardino|Victor Valley Union High|http://www.vvuhsd.org
+36679420000000|Closed|San Bernardino|Wrightwood Joint Elementary|No Data
+36679590000000|Active|San Bernardino|Yucaipa-Calimesa Joint Unified|http://www.yucaipaschools.com
+36738580000000|Active|San Bernardino|Baker Valley Unified|http://www.baker.k12.ca.us
+36738900000000|Active|San Bernardino|Silver Valley Unified|http://www.svusdk12.net
+36739570000000|Active|San Bernardino|Snowline Joint Unified|http://www.snowlineschools.com
+36741380000000|Active|San Bernardino|Colton-Redlands-Yucaipa ROP|No Data
+36742110000000|Active|San Bernardino|Baldy View ROP|http://www.baldyviewrop.com
+36745180000000|Active|San Bernardino|San Bernardino County ROP|No Data
+36750440000000|Active|San Bernardino|Hesperia Unified|http://www.hesperiausd.org
+36750510000000|Active|San Bernardino|Lucerne Valley Unified|http://www.lucernevalleyusd.org
+36750690000000|Active|San Bernardino|Upland Unified|http://www.upland.k12.ca.us
+36750770000000|Active|San Bernardino|Apple Valley Unified|http://www.avusd.org
+36767110000000|Closed|San Bernardino|SBE - Nova Meridian Academy|http://www.mynma.org
+37103710000000|Active|San Diego|San Diego County Office of Education|http://www.sdcoe.net
+37679670000000|Active|San Diego|Alpine Union Elementary|http://www.alpineschools.net
+37679750000000|Closed|San Diego|Bonsall Union Elementary|http://www.bonsallusd.com
+37679830000000|Active|San Diego|Borrego Springs Unified|No Data
+37679910000000|Active|San Diego|Cajon Valley Union|http://www.cajonvalley.net
+37680070000000|Active|San Diego|Cardiff Elementary|http://www.cardiffschools.com
+37680230000000|Active|San Diego|Chula Vista Elementary|http://www.cvesd.org
+37680310000000|Active|San Diego|Coronado Unified|http://www.coronadousd.net
+37680490000000|Active|San Diego|Dehesa Elementary|http://www.dehesasd.net/
+37680560000000|Active|San Diego|Del Mar Union Elementary|http://www.dmusd.org
+37680800000000|Active|San Diego|Encinitas Union Elementary|http://www.eusd.net
+37680980000000|Active|San Diego|Escondido Union|http://www.eusd.org
+37681060000000|Active|San Diego|Escondido Union High|http://www.euhsd.org
+37681140000000|Active|San Diego|Fallbrook Union Elementary|http://www.fuesd.org
+37681220000000|Active|San Diego|Fallbrook Union High|http://www.fuhsd.net
+37681300000000|Active|San Diego|Grossmont Union High|http://www.guhsd.net/
+37681550000000|Active|San Diego|Jamul-Dulzura Union Elementary|http://www.jdusd.net
+37681630000000|Active|San Diego|Julian Union Elementary|http://www.sdcoe.k12.ca.us/districts/julianel
+37681710000000|Active|San Diego|Julian Union High|http://www.juhsd.org
+37681890000000|Active|San Diego|Lakeside Union Elementary|http://www.lsusd.net
+37681970000000|Active|San Diego|La Mesa-Spring Valley|http://www.lmsvschools.org
+37682050000000|Active|San Diego|Lemon Grove|http://www.lemongrovesd.net
+37682130000000|Active|San Diego|Mountain Empire Unified|http://meusd.k12.ca.us
+37682210000000|Active|San Diego|National Elementary|http://nsd.us
+37682880000000|Merged|San Diego|Pauma Elementary|No Data
+37682960000000|Active|San Diego|Poway Unified|http://www.powayusd.com
+37683040000000|Active|San Diego|Ramona City Unified|http://www.ramonausd.net
+37683120000000|Active|San Diego|Rancho Santa Fe Elementary|http://rsfschool.net
+37683200000000|Closed|San Diego|Rich-Mar Union Elementary|No Data
+37683380000000|Active|San Diego|San Diego Unified|http://www.sandi.net
+37683460000000|Active|San Diego|San Dieguito Union High|http://www.sduhsd.net
+37683530000000|Active|San Diego|San Pasqual Union Elementary|http://www.sanpasqualunion.net
+37683610000000|Active|San Diego|Santee|http://www.santeesd.net
+37683790000000|Active|San Diego|San Ysidro Elementary|http://www.sysdschools.org
+37683870000000|Active|San Diego|Solana Beach Elementary|http://www.sbsd.k12.ca.us
+37683950000000|Active|San Diego|South Bay Union|http://www.sbusd.org
+37684030000000|Active|San Diego|Spencer Valley Elementary|http://www.sdcoe.k12.ca.us/districts/spencer
+37684110000000|Active|San Diego|Sweetwater Union High|http://www.sweetwaterschools.org/
+37684370000000|Active|San Diego|Vallecitos Elementary|http://www.vallecitossd.net
+37684450000000|Merged|San Diego|Valley Center Union Elementary|No Data
+37684520000000|Active|San Diego|Vista Unified|http://www.vistausd.org
+37684600000000|Merged|San Diego|Warner Union Elementary|No Data
+37735510000000|Active|San Diego|Carlsbad Unified|http://www.carlsbadusd.k12.ca.us
+37735690000000|Active|San Diego|Oceanside Unified|http://www.oside.us
+37737910000000|Active|San Diego|San Marcos Unified|http://www.smusd.org
+37745260000000|Active|San Diego|San Diego County ROP|http://www.sdcoe.net
+37754160000000|Active|San Diego|Warner Unified|http://www.warnerusd.net
+37756140000000|Active|San Diego|Valley Center-Pauma Unified|http://www.vcpusd.k12.ca.us
+37764710000000|Active|San Diego|SBC - High Tech High|http://www.hightechhigh.org
+37768510000000|Active|San Diego|Bonsall Unified|http://www.bonsallusd.com
+37769010000000|Closed|San Diego|SBE - Thrive Public|http://www.thriveps.org
+37770320000000|Active|San Diego|SBE - Audeo Charter II|http://www.audeo2.com
+37770990000000|Active|San Diego|SBE - Grossmont Secondary|http://www.grossmontsecondarycharter.com
+37771070000000|Active|San Diego|SBE - Sweetwater Secondary|http://www.sweetwatersecondarycharter.com
+37771560000000|Active|San Diego|SBE - Vista Springs Charter|http://www.springscharterschools.org
+37771640000000|Active|San Diego|SBE - College Preparatory Middle|http://www.mycpms.net
+37771720000000|Active|San Diego|SBE - Baypoint Preparatory Academy San Diego|http://www.baypointprep.org
+38103890000000|Active|San Francisco|San Francisco County Office of Education|http://www.sfusd.edu/
+38684780000000|Active|San Francisco|San Francisco Unified|http://www.sfusd.edu
+38745340000000|Active|San Francisco|San Francisco County ROP|No Data
+38756480000000|Closed|San Francisco|SBE - Edison Charter Academy|No Data
+38767030000000|Closed|San Francisco|SBE - San Francisco Flex Academy|http://www.sfflex.org
+38767520000000|Closed|San Francisco|SBE - Mission Preparatory|http://www.missionpreparatory.org
+38769190000000|Active|San Francisco|SBE - OnePurpose|http://www.onepurposeschool.org
+38769270000000|Active|San Francisco|SBE - The New School of San Francisco|http://www.newschoolsf.org
+38771310000000|Active|San Francisco|SBE - KIPP Bayview Elementary|http://www.kippbayarea.org/kipp-bayview-elementary
+38772300000000|Active|San Francisco|SBE - Mary L. Booker Leadership Academy|http://www.mlbla.org
+39103970000000|Active|San Joaquin|San Joaquin County Office of Education|http://www.sjcoe.org
+39684860000000|Active|San Joaquin|Banta Elementary|http://bantasd.org
+39685020000000|Active|San Joaquin|Escalon Unified|http://www.escalonusd.org
+39685360000000|Closed|San Joaquin|Holt Union Elementary|No Data
+39685440000000|Active|San Joaquin|Jefferson Elementary|http://www.jeffersonschooldistrict.com
+39685510000000|Closed|San Joaquin|Lammersville Elementary|http://www.lammersvilleschooldistrict.net
+39685690000000|Active|San Joaquin|Lincoln Unified|http://www.lusd.net
+39685770000000|Active|San Joaquin|Linden Unified|http://www.lindenusd.com
+39685850000000|Active|San Joaquin|Lodi Unified|http://www.lodiusd.net
+39685930000000|Active|San Joaquin|Manteca Unified|http://www.mantecausd.net
+39686190000000|Active|San Joaquin|New Hope Elementary|http://www.nhesd.net/
+39686270000000|Active|San Joaquin|New Jerusalem Elementary|http://www.njesd.net
+39686350000000|Active|San Joaquin|Oak View Union Elementary|http://www.myoakview.com
+39686430000000|Closed|San Joaquin|Rindge Elementary|No Data
+39686500000000|Active|San Joaquin|Ripon Unified|http://www.riponusd.net
+39686760000000|Active|San Joaquin|Stockton Unified|http://www.stocktonusd.net
+39686840000000|Merged|San Joaquin|Tracy Elementary|No Data
+39686920000000|Merged|San Joaquin|Tracy Joint Union High|No Data
+39734780000000|Merged|San Joaquin|Delta Island Union Elementary|No Data
+39745420000000|Active|San Joaquin|San Joaquin County ROP|No Data
+39754990000000|Active|San Joaquin|Tracy Joint Unified|http://www.tracy.k12.ca.us
+39767600000000|Active|San Joaquin|Lammersville Joint Unified|http://www.lammersvilleschooldistrict.net
+40104050000000|Active|San Luis Obispo|San Luis Obispo County Office of Education|http://www.slocoe.org
+40687000000000|Active|San Luis Obispo|Atascadero Unified|http://www.atasusd.org
+40687180000000|Merged|San Luis Obispo|Cambria Union Elementary|No Data
+40687260000000|Active|San Luis Obispo|Cayucos Elementary|http://sites.google.com/a/cayucosschool.org/cayucos-elementary-school-district/
+40687340000000|Merged|San Luis Obispo|Coast Union High|No Data
+40687420000000|Closed|San Luis Obispo|Fairview Elementary|No Data
+40687590000000|Active|San Luis Obispo|Lucia Mar Unified|http://www.lmusd.org
+40687670000000|Merged|San Luis Obispo|Paso Robles Union Elementary|No Data
+40687750000000|Merged|San Luis Obispo|Paso Robles Joint Union High|No Data
+40687830000000|Merged|San Luis Obispo|Phillips Elementary|No Data
+40687910000000|Active|San Luis Obispo|Pleasant Valley Joint Union Elementary|http://www.pleasant-valley-school.org
+40688090000000|Active|San Luis Obispo|San Luis Coastal Unified|http://www.slcusd.org
+40688250000000|Active|San Luis Obispo|San Miguel Joint Union|http://www.sanmiguelschools.org
+40688330000000|Active|San Luis Obispo|Shandon Joint Unified|http://www.shandonschools.org
+40688410000000|Active|San Luis Obispo|Templeton Unified|http://tusd.ca.schoolloop.com/
+40747240000000|Closed|San Luis Obispo|Santa Lucia ROP|No Data
+40754570000000|Active|San Luis Obispo|Paso Robles Joint Unified|http://www.pasoschools.org
+40754650000000|Active|San Luis Obispo|Coast Unified|http://www.coastusd.org
+41104130000000|Active|San Mateo|San Mateo County Office of Education|http://www.smcoe.org
+41688580000000|Active|San Mateo|Bayshore Elementary|http://www.thebayshoreschool.org
+41688660000000|Active|San Mateo|Belmont-Redwood Shores Elementary|http://www.brssd.org
+41688740000000|Active|San Mateo|Brisbane Elementary|http://www.brisbanesd.org
+41688820000000|Active|San Mateo|Burlingame Elementary|http://www.burlingameschools.org
+41688900000000|Active|San Mateo|Cabrillo Unified|http://www.cabrillo.k12.ca.us
+41689080000000|Active|San Mateo|Hillsborough City Elementary|http://www.hcsd.k12.ca.us
+41689160000000|Active|San Mateo|Jefferson Elementary|http://www.jsd.k12.ca.us
+41689240000000|Active|San Mateo|Jefferson Union High|http://www.juhsd.net
+41689320000000|Active|San Mateo|Pacifica|http://www.pacificasd.org
+41689400000000|Active|San Mateo|La Honda-Pescadero Unified|http://www.lhpusd.com
+41689570000000|Active|San Mateo|Las Lomitas Elementary|http://www.llesd.org
+41689650000000|Active|San Mateo|Menlo Park City Elementary|http://www.mpcsd.org
+41689730000000|Active|San Mateo|Millbrae Elementary|http://www.millbraeschooldistrict.org
+41689810000000|Active|San Mateo|Portola Valley Elementary|http://www.pvsd.net
+41689990000000|Active|San Mateo|Ravenswood City Elementary|http://www.ravenswoodschools.org
+41690050000000|Active|San Mateo|Redwood City Elementary|http://www.rcsd.k12.ca.us
+41690130000000|Active|San Mateo|San Bruno Park Elementary|http://www.sbpsd.org
+41690210000000|Active|San Mateo|San Carlos Elementary|http://www.scsdk8.org/
+41690390000000|Active|San Mateo|San Mateo-Foster City|http://www.smfcsd.net
+41690470000000|Active|San Mateo|San Mateo Union High|http://www.smuhsd.org
+41690620000000|Active|San Mateo|Sequoia Union High|http://www.seq.org
+41690700000000|Active|San Mateo|South San Francisco Unified|http://www.ssfusd.org
+41690880000000|Active|San Mateo|Woodside Elementary|http://www.woodsideschool.us
+41745590000000|Active|San Mateo|San Mateo County ROP|No Data
+41764300000000|Closed|San Mateo|SBE - High Tech High Bayshore|http://www.hightechhigh.org
+41765880000000|Closed|San Mateo|SBE - Everest Public High|http://www.everestphs.org
+42104210000000|Active|Santa Barbara|Santa Barbara County Office of Education|http://www.sbceo.org
+42691040000000|Active|Santa Barbara|Ballard Elementary|http://www.ballardschool.org
+42691120000000|Active|Santa Barbara|Blochman Union Elementary|http://blochmanusd.org
+42691200000000|Active|Santa Barbara|Santa Maria-Bonita|http://www.smbsd.org
+42691380000000|Active|Santa Barbara|Buellton Union Elementary|http://www.buelltonusd.org
+42691460000000|Active|Santa Barbara|Carpinteria Unified|http://www.cusd.net
+42691530000000|Closed|Santa Barbara|Casmalia Elementary|http://www.sbceo.k12.ca.us/districts/casmaliasd
+42691610000000|Active|Santa Barbara|Cold Spring Elementary|http://www.coldspringschool.net
+42691790000000|Active|Santa Barbara|College Elementary|http://www.collegeschooldistrict.org
+42691870000000|Merged|Santa Barbara|Cuyama Joint Union Elementary|No Data
+42691950000000|Active|Santa Barbara|Goleta Union Elementary|http://www.goleta.k12.ca.us
+42692030000000|Active|Santa Barbara|Guadalupe Union Elementary|http://www.guadusd.org
+42692110000000|Active|Santa Barbara|Hope Elementary|http://www.hopesdk6.org
+42692290000000|Active|Santa Barbara|Lompoc Unified|http://www.lusd.org
+42692370000000|Closed|Santa Barbara|Los Alamos Elementary|No Data
+42692450000000|Active|Santa Barbara|Los Olivos Elementary|http://www.losolivosschool.org
+42692520000000|Active|Santa Barbara|Montecito Union Elementary|http://www.montecitou.org
+42692600000000|Active|Santa Barbara|Orcutt Union Elementary|http://www.orcutt-schools.net/public
+42692780000000|Closed|Santa Barbara|Santa Barbara Elementary|http://www.sbsdk12.org
+42692860000000|Closed|Santa Barbara|Santa Barbara Secondary|http://www.sbsdk12.org
+42693020000000|Merged|Santa Barbara|Santa Maria Elementary|No Data
+42693100000000|Active|Santa Barbara|Santa Maria Joint Union High|http://www.smjuhsd.k12.ca.us
+42693280000000|Active|Santa Barbara|Santa Ynez Valley Union High|http://www.syvuhsd.org
+42693360000000|Active|Santa Barbara|Solvang Elementary|http://www.solvangschool.org
+42693440000000|Active|Santa Barbara|Vista del Mar Union|http://vista-vdm-ca.schoolloop.com/
+42745670000000|Active|Santa Barbara|Santa Barbara County ROP|No Data
+42750100000000|Active|Santa Barbara|Cuyama Joint Unified|http://www.cuyamaunified.org
+42767860000000|Active|Santa Barbara|Santa Barbara Unified|http://www.sbunified.org
+42769500000000|Active|Santa Barbara|SBE - Olive Grove Charter|http://www.olivegrovecharter.org
+42771980000000|Active|Santa Barbara|SBE - Olive Grove Charter - Orcutt/Santa Maria|http://www.olivegrovecharter.org
+42772060000000|Active|Santa Barbara|SBE - Olive Grove Charter - Lompoc|http://www.olivegrovecharter.org
+42772140000000|Active|Santa Barbara|SBE - Olive Grove Charter - Buellton|http://www.olivegrovecharter.org
+42772220000000|Active|Santa Barbara|SBE - Olive Grove Charter - Santa Barbara|http://www.olivegrovecharter.org
+43104390000000|Active|Santa Clara|Santa Clara County Office of Education|http://www.sccoe.org
+43693690000000|Active|Santa Clara|Alum Rock Union Elementary|http://www.arusd.org
+43693770000000|Active|Santa Clara|Berryessa Union Elementary|http://www.berryessa.k12.ca.us
+43693850000000|Active|Santa Clara|Cambrian|http://www.cambriansd.org
+43693930000000|Active|Santa Clara|Campbell Union|http://www.campbellusd.org
+43694010000000|Active|Santa Clara|Campbell Union High|http://www.cuhsd.org
+43694190000000|Active|Santa Clara|Cupertino Union|http://www.cusdk8.org
+43694270000000|Active|Santa Clara|East Side Union High|http://www.esuhsd.org
+43694350000000|Active|Santa Clara|Evergreen Elementary|http://www.eesd.org
+43694500000000|Active|Santa Clara|Franklin-McKinley Elementary|http://www.fmsd.org
+43694680000000|Active|Santa Clara|Fremont Union High|http://www.fuhsd.org
+43694840000000|Active|Santa Clara|Gilroy Unified|http://www.gilroyunified.org
+43694920000000|Active|Santa Clara|Lakeside Joint|http://www.lakesidelosgatos.org
+43695000000000|Active|Santa Clara|Loma Prieta Joint Union Elementary|http://www.loma.k12.ca.us
+43695180000000|Active|Santa Clara|Los Altos Elementary|http://www.lasdschools.org
+43695260000000|Active|Santa Clara|Los Gatos Union Elementary|http://www.lgusd.org
+43695340000000|Active|Santa Clara|Los Gatos-Saratoga Union High|http://www.lgsuhsd.org
+43695420000000|Active|Santa Clara|Luther Burbank|http://www.lbsd.k12.ca.us
+43695670000000|Closed|Santa Clara|Montebello Elementary|http://www.montebelloschool.org
+43695750000000|Active|Santa Clara|Moreland|http://www.moreland.org
+43695830000000|Active|Santa Clara|Morgan Hill Unified|http://www.mhusd.org
+43695910000000|Active|Santa Clara|Mountain View Whisman|http://www.mvwsd.org
+43696090000000|Active|Santa Clara|Mountain View-Los Altos Union High|http://www.mvla.net
+43696170000000|Active|Santa Clara|Mount Pleasant Elementary|http://www.mpesd.org
+43696250000000|Active|Santa Clara|Oak Grove Elementary|http://www.ogsd.net
+43696330000000|Active|Santa Clara|Orchard Elementary|http://www.orchardsd.org
+43696410000000|Active|Santa Clara|Palo Alto Unified|http://www.pausd.org
+43696660000000|Active|Santa Clara|San Jose Unified|http://www.sjusd.org
+43696740000000|Active|Santa Clara|Santa Clara Unified|http://www.santaclarausd.org
+43696820000000|Active|Santa Clara|Saratoga Union Elementary|http://www.saratogausd.org
+43696900000000|Active|Santa Clara|Sunnyvale|http://www.sesd.org
+43697080000000|Active|Santa Clara|Union Elementary|http://www.unionsd.org
+43697240000000|Merged|Santa Clara|Whisman Elementary|No Data
+43733870000000|Active|Santa Clara|Milpitas Unified|http://www.musd.org
+43742940000000|Active|Santa Clara|Metro Education|No Data
+43743020000000|Active|Santa Clara|Santa Clara County ROP|No Data
+43766200000000|Active|Santa Clara|North County Regional Occupational Center/Program (ROC/P)|http://www.fuhsd.org
+43769840000000|Closed|Santa Clara|SBE - Wei Yu International Charter|http://weiyucharter.org
+43771150000000|Active|Santa Clara|SBE - Perseverance Preparatory|http://www.perseveranceprep.org
+43771230000000|Closed|Santa Clara|SBE - Promise Academy|http://www.promisepublicschools.org
+43771490000000|Active|Santa Clara|SBE - KIPP Navigate College Prep|http://www.kippbayarea.org/navigate
+44104470000000|Active|Santa Cruz|Santa Cruz County Office of Education|http://www.santacruzcoe.org
+44697320000000|Active|Santa Cruz|Bonny Doon Union Elementary|http://www.bonnydoon.santacruz.k12.ca.us
+44697570000000|Active|Santa Cruz|Happy Valley Elementary|http://www.hvesd.com
+44697650000000|Active|Santa Cruz|Live Oak Elementary|http://www.losd.ca
+44697730000000|Active|Santa Cruz|Mountain Elementary|http://www.mountainesd.org
+44697810000000|Active|Santa Cruz|Pacific Elementary|http://www.pacificesd.org
+44697990000000|Active|Santa Cruz|Pajaro Valley Unified|http://www.pvusd.net
+44698070000000|Active|Santa Cruz|San Lorenzo Valley Unified|http://www.slvusd.org
+44698150000000|Active|Santa Cruz|Santa Cruz City Elementary|http://www.sccs.santacruz.k12.ca.us
+44698230000000|Active|Santa Cruz|Santa Cruz City High|http://www.sccs.net
+44698310000000|Merged|Santa Cruz|Scotts Valley Union Elementary|No Data
+44698490000000|Active|Santa Cruz|Soquel Union Elementary|http://www.suesd.org
+44745750000000|Active|Santa Cruz|Santa Cruz County ROP|No Data
+44754320000000|Active|Santa Cruz|Scotts Valley Unified|http://www.scottsvalleyusd.org
+44772480000000|Active|Santa Cruz|SBE - Watsonville Prep|http://www.navigatorschools.org
+45104540000000|Active|Shasta|Shasta County Office of Education|http://www.shastacoe.org
+45698560000000|Active|Shasta|Anderson Union High|http://www.auhsd.net
+45698640000000|Merged|Shasta|Bass Elementary|No Data
+45698720000000|Active|Shasta|Bella Vista Elementary|http://www.bveagles.com
+45698800000000|Active|Shasta|Black Butte Union Elementary|http://www.blackbutteschool.org
+45698980000000|Merged|Shasta|Buckeye Elementary|No Data
+45699060000000|Merged|Shasta|Canyon Union Elementary|No Data
+45699140000000|Active|Shasta|Cascade Union Elementary|http://www.cuesd.com
+45699220000000|Active|Shasta|Castle Rock Union Elementary|http://www.castlerockschool.net
+45699480000000|Active|Shasta|Columbia Elementary|http://www.columbiasd.com
+45699550000000|Active|Shasta|Cottonwood Union Elementary|http://www.cwusd.com
+45699710000000|Active|Shasta|Enterprise Elementary|http://www.eesd.net
+45699890000000|Active|Shasta|Fall River Joint Unified|http://www.frjusd.org
+45699970000000|Active|Shasta|French Gulch-Whiskeytown Elementary|http://www.frenchgulchschool.com
+45700030000000|Active|Shasta|Grant Elementary|http://www.grantschoolcougars.com
+45700110000000|Active|Shasta|Happy Valley Union Elementary|http://www.hvusd.net
+45700290000000|Active|Shasta|Igo, Ono, Platina Union Elementary|http://igo.reddingschools.net
+45700370000000|Active|Shasta|Indian Springs Elementary|http://www.indianspringsesd.org
+45700450000000|Active|Shasta|Junction Elementary|http://www.junctionesd.net
+45700520000000|Active|Shasta|Millville Elementary|http://www.millvilleschool.net
+45700780000000|Active|Shasta|North Cow Creek Elementary|http://www.northcowcreek.org
+45700860000000|Active|Shasta|Oak Run Elementary|http://www.oakrunschool.org
+45700940000000|Active|Shasta|Pacheco Union Elementary|http://www.pacheco.k12.ca.us
+45701100000000|Active|Shasta|Redding Elementary|http://www.reddingschools.net/home
+45701280000000|Active|Shasta|Shasta Union Elementary|http://shasta.reddingschools.net
+45701360000000|Active|Shasta|Shasta Union High|http://www.suhsd.net
+45701510000000|Merged|Shasta|Shasta Lake Union Elementary|No Data
+45701690000000|Active|Shasta|Whitmore Union Elementary|No Data
+45737000000000|Active|Shasta|Mountain Union Elementary|http://www.muesd.org
+45745830000000|Active|Shasta|Shasta-Trinity ROP|No Data
+45752670000000|Active|Shasta|Gateway Unified|http://www.gateway-schools.org
+46104620000000|Active|Sierra|Sierra County Office of Education|http://www.sierracountyofficeofeducation.org/
+46701770000000|Active|Sierra|Sierra-Plumas Joint Unified|http://www.sierracountyofficeofeducation.org/
+46748800000000|Active|Sierra|WIlliam (R) Rouse ROP|http://sierra-coe.k12.ca.us
+47104700000000|Active|Siskiyou|Siskiyou County Office of Education|http://www.siskiyoucoe.net
+47701850000000|Active|Siskiyou|Big Springs Union Elementary|http://www.bigspringsschool.org
+47701930000000|Active|Siskiyou|Bogus Elementary|http://www.sisnet.ssku.k12.ca.us/~bogusftp
+47702010000000|Active|Siskiyou|Butteville Union Elementary|http://www.butteville.k12.ca.us/
+47702190000000|Closed|Siskiyou|Callahan-East Fork Union Eleme|No Data
+47702270000000|Active|Siskiyou|Delphic Elementary|No Data
+47702350000000|Closed|Siskiyou|Dorris Elementary|No Data
+47702430000000|Active|Siskiyou|Dunsmuir Elementary|http://des-desd-ca.schoolloop.com/
+47702500000000|Active|Siskiyou|Dunsmuir Joint Union High|http://www.dunsmuirhigh.k12.ca.us
+47702680000000|Merged|Siskiyou|Etna Union Elementary|No Data
+47702760000000|Merged|Siskiyou|Etna Union High|http://sisscoe.sisnet.ssku.k12.ca.us/~ehsdftp
+47702840000000|Merged|Siskiyou|Fall Creek Elementary|No Data
+47702920000000|Active|Siskiyou|Forks of Salmon Elementary|No Data
+47703000000000|Merged|Siskiyou|Fort Jones Union Elementary|http://www.sisnet.ssku.k12.ca.us/~fortftp/index
+47703180000000|Active|Siskiyou|Gazelle Union Elementary|http://gazelleuesd.cyberschool.com/
+47703260000000|Active|Siskiyou|Grenada Elementary|http://grenada.k12.ca.us
+47703340000000|Active|Siskiyou|Happy Camp Union Elementary|http://www.happycamp.k12.ca.us/
+47703420000000|Closed|Siskiyou|Hilt Elementary|No Data
+47703590000000|Active|Siskiyou|Hornbrook Elementary|http://www.hornbrookschool.org
+47703670000000|Active|Siskiyou|Junction Elementary|http://www.sisnet.ssku.k12.ca.us/~junctftp
+47703750000000|Active|Siskiyou|Klamath River Union Elementary|http://www.sisnet.ssku.k12.ca.us/~klamaftp
+47703830000000|Active|Siskiyou|Little Shasta Elementary|No Data
+47704090000000|Active|Siskiyou|McCloud Union Elementary|http://mccloudelementary.webs.com/
+47704170000000|Active|Siskiyou|Montague Elementary|http://www.montagueschools.net
+47704250000000|Active|Siskiyou|Mt. Shasta Union Elementary|http://www.mountshastausd.com
+47704330000000|Merged|Siskiyou|Quartz Valley Elementary|http://www.sisnet.ssku.k12.ca.us/~quartftp
+47704410000000|Merged|Siskiyou|Sawyers Bar Elementary|No Data
+47704580000000|Active|Siskiyou|Seiad Elementary|http://www.sisnet.ssku.k12.ca.us/seiad.html
+47704660000000|Active|Siskiyou|Siskiyou Union High|http://www.sisuhsd.net
+47704820000000|Active|Siskiyou|Weed Union Elementary|http://www.weedelementaryschool.com
+47704900000000|Active|Siskiyou|Willow Creek Elementary|http://www.sisnet.ssku.k12.ca.us/~willoweb
+47705080000000|Active|Siskiyou|Yreka Union Elementary|http://www.yrekausd.net
+47705160000000|Active|Siskiyou|Yreka Union High|http://www.yuhsd.net
+47736840000000|Active|Siskiyou|Butte Valley Unified|http://www.bvalusd.org
+47746900000000|Closed|Siskiyou|Siskiyou County ROP|No Data
+47748720000000|Active|Siskiyou|Siskiyou ROP|No Data
+47764550000000|Active|Siskiyou|Scott Valley Unified|http://www.svusd.us
+48104880000000|Active|Solano|Solano County Office of Education|http://www.solanocoe.net
+48705240000000|Active|Solano|Benicia Unified|http://www.beniciaunified.org
+48705320000000|Active|Solano|Dixon Unified|http://www.dixonusd.org
+48705400000000|Active|Solano|Fairfield-Suisun Unified|http://www.fsusd.org
+48705650000000|Active|Solano|Travis Unified|http://www.travisusd.org
+48705730000000|Active|Solano|Vacaville Unified|http://www.vacavilleusd.org
+48705810000000|Active|Solano|Vallejo City Unified|http://www.vallejo.k12.ca.us
+48746740000000|Closed|Solano|Solano County ROP|No Data
+48766610000000|Closed|Solano|SBE - Dixon Montessori Charter|http://www.dixonmontessori.org
+49104960000000|Active|Sonoma|Sonoma County Office of Education|http://www.scoe.org
+49705990000000|Active|Sonoma|Alexander Valley Union Elementary|http://www.alexandervalleyusd.org
+49706070000000|Active|Sonoma|West Sonoma County Union High|http://www.wscuhsd.k12.ca.us
+49706150000000|Active|Sonoma|Bellevue Union|http://www.busd.org/
+49706230000000|Active|Sonoma|Bennett Valley Union Elementary|http://www.bvusd.org
+49706490000000|Active|Sonoma|Cinnabar Elementary|http://www.cinnabar.org/
+49706560000000|Active|Sonoma|Cloverdale Unified|http://cloverdale-ca.schoolloop.com/
+49706640000000|Closed|Sonoma|Cotati-Rohnert Park Elementary|No Data
+49706720000000|Active|Sonoma|Dunham Elementary|http://www.dunhamsd.org
+49706800000000|Active|Sonoma|Forestville Union Elementary|http://www.forestvilleusd.org
+49706980000000|Active|Sonoma|Fort Ross Elementary|http://www.fortrossschool.org
+49707060000000|Active|Sonoma|Geyserville Unified|http://www.gusd.com
+49707140000000|Active|Sonoma|Gravenstein Union Elementary|http://www.grav.k12.ca.us
+49707220000000|Active|Sonoma|Guerneville Elementary|http://www.guernevilleschool.org
+49707300000000|Active|Sonoma|Harmony Union Elementary|http://www.harmonyusd.org
+49707480000000|Merged|Sonoma|Healdsburg Union Elementary|No Data
+49707550000000|Merged|Sonoma|Healdsburg Union High|No Data
+49707630000000|Active|Sonoma|Horicon Elementary|http://horiconesd.org/
+49707890000000|Active|Sonoma|Kenwood|http://www.kenwood.k12.ca.us
+49707970000000|Active|Sonoma|Liberty Elementary|http://www.libertysd.org
+49708050000000|Active|Sonoma|Mark West Union Elementary|http://www.mwusd.org
+49708130000000|Active|Sonoma|Monte Rio Union Elementary|http://www.monterioschool.org
+49708210000000|Active|Sonoma|Montgomery Elementary|http://www.mescaz.org
+49708390000000|Active|Sonoma|Oak Grove Union Elementary|http://www.ogusd.org
+49708470000000|Active|Sonoma|Old Adobe Union|http://www.oldadobe.org
+49708540000000|Active|Sonoma|Petaluma City Elementary|http://www.petalumacityschools.org
+49708620000000|Active|Sonoma|Petaluma Joint Union High|http://www.petalumacityschools.org
+49708700000000|Active|Sonoma|Piner-Olivet Union Elementary|http://www.pousd.org
+49708880000000|Active|Sonoma|Kashia Elementary|No Data
+49708960000000|Active|Sonoma|Rincon Valley Union Elementary|http://www.rvusd.org
+49709040000000|Active|Sonoma|Roseland|http://www.roselandsd.org
+49709120000000|Active|Sonoma|Santa Rosa Elementary|http://www.srcschools.org
+49709200000000|Active|Sonoma|Santa Rosa High|http://www.srcschools.org
+49709380000000|Active|Sonoma|Sebastopol Union Elementary|http://www.sebastopolschools.org
+49709530000000|Active|Sonoma|Sonoma Valley Unified|http://sonomaschools.org/
+49709610000000|Active|Sonoma|Twin Hills Union Elementary|http://www.twinhillsusd.org
+49709790000000|Active|Sonoma|Two Rock Union|http://www.trusd.org
+49709950000000|Active|Sonoma|Waugh Elementary|http://www.waughsd.org
+49710010000000|Active|Sonoma|West Side Union Elementary|http://www.westsideusd.org
+49710190000000|Active|Sonoma|Wilmar Union Elementary|http://www.wilsonschoolpetaluma.org
+49710270000000|Merged|Sonoma|Windsor Union Elementary|No Data
+49710350000000|Active|Sonoma|Wright Elementary|http://www.wrightesd.org
+49738820000000|Active|Sonoma|Cotati-Rohnert Park Unified|http://www.crpusd.org
+49745910000000|Active|Sonoma|Sonoma County ROP|No Data
+49753580000000|Active|Sonoma|Windsor Unified|http://www.wusd.org
+49753900000000|Active|Sonoma|Healdsburg Unified|http://www.husd.com
+49766040000000|Closed|Sonoma|SBE - River Montessori Elementary Charter|http://www.rivermontessoricharter.org
+50105040000000|Active|Stanislaus|Stanislaus County Office of Education|http://www.stancoe.org
+50710430000000|Active|Stanislaus|Ceres Unified|http://www.ceres.k12.ca.us
+50710500000000|Active|Stanislaus|Chatom Union|http://www.chatom.k12.ca.us
+50710680000000|Active|Stanislaus|Denair Unified|http://www.dusd.k12.ca.us
+50710760000000|Active|Stanislaus|Empire Union Elementary|http://www.empire.k12.ca.us
+50710840000000|Active|Stanislaus|Gratton Elementary|http://grattonschool.net
+50710920000000|Active|Stanislaus|Hart-Ransom Union Elementary|http://www.hartransom.org
+50711000000000|Active|Stanislaus|Hickman Community Charter|http://www.hickmanschools.org
+50711180000000|Merged|Stanislaus|Hughson Union Elementary|No Data
+50711260000000|Merged|Stanislaus|Hughson Union High|No Data
+50711340000000|Active|Stanislaus|Keyes Union|http://www.keyes.k12.ca.us
+50711420000000|Active|Stanislaus|Knights Ferry Elementary|http://www.knightsferryesd.org
+50711590000000|Closed|Stanislaus|La Grange Elementary|No Data
+50711670000000|Active|Stanislaus|Modesto City Elementary|http://www.monet.k12.ca.us
+50711750000000|Active|Stanislaus|Modesto City High|http://www.monet.k12.ca.us
+50711830000000|Merged|Stanislaus|Oakdale Union Elementary|No Data
+50711910000000|Merged|Stanislaus|Oakdale Joint Union High|No Data
+50712090000000|Active|Stanislaus|Paradise Elementary|http://www.paradiseesd.org
+50712170000000|Active|Stanislaus|Patterson Joint Unified|http://www.patterson.k12.ca.us
+50712250000000|Merged|Stanislaus|Riverbank Elementary|No Data
+50712330000000|Active|Stanislaus|Roberts Ferry Union Elementary|http://www.robertsferry.k12.ca.us
+50712660000000|Active|Stanislaus|Salida Union Elementary|http://www.salida.k12.ca.us
+50712740000000|Active|Stanislaus|Shiloh Elementary|http://www.shiloh.k12.ca.us
+50712820000000|Active|Stanislaus|Stanislaus Union Elementary|http://www.stanunion.k12.ca.us
+50712900000000|Active|Stanislaus|Sylvan Union Elementary|http://www.sylvan.k12.ca.us
+50713080000000|Merged|Stanislaus|Turlock Joint Elementary|No Data
+50713160000000|Merged|Stanislaus|Turlock Joint Union High|http://www.turlock.k12.ca.us/index.html
+50713240000000|Active|Stanislaus|Valley Home Joint Elementary|http://www.vhjsd.org
+50713320000000|Merged|Stanislaus|Waterford Elementary|No Data
+50736010000000|Active|Stanislaus|Newman-Crows Landing Unified|http://www.nclusd.k12.ca.us
+50746090000000|Active|Stanislaus|Yosemite ROP|No Data
+50755490000000|Active|Stanislaus|Hughson Unified|http://www.hughson.k12.ca.us
+50755560000000|Active|Stanislaus|Riverbank Unified|http://www.riverbank.k12.ca.us
+50755640000000|Active|Stanislaus|Oakdale Joint Unified|http://www.ojusd.org
+50755720000000|Active|Stanislaus|Waterford Unified|http://www.waterford.k12.ca.us
+50757390000000|Active|Stanislaus|Turlock Unified|http://www.turlock.k12.ca.us
+50766380000000|Closed|Stanislaus|SBE - Aspire Vanguard College Preparatory Academy|http://www.aspirepublicschools.org
+51105120000000|Active|Sutter|Sutter County Office of Education|http://www.sutter.k12.ca.us
+51713570000000|Active|Sutter|Brittan Elementary|http://www.brittan.k12.ca.us
+51713650000000|Active|Sutter|Browns Elementary|http://www.sutter.k12.ca.us/district/browns/browns.htm
+51713730000000|Active|Sutter|East Nicolaus Joint Union High|http://www.eastnicolaus.k12.ca.us
+51713810000000|Active|Sutter|Franklin Elementary|http://www.franklin.k12.ca.us
+51713990000000|Active|Sutter|Live Oak Unified|http://www.lousd.k12.ca.us
+51714070000000|Active|Sutter|Marcum-Illinois Union Elementary|http://www.marcum-illinois.org
+51714150000000|Active|Sutter|Meridian Elementary|http://meridiantigers.com
+51714230000000|Active|Sutter|Nuestro Elementary|http://www.nuestroschool.org
+51714310000000|Active|Sutter|Pleasant Grove Joint Union|http://www.pgroveschool.org
+51714490000000|Active|Sutter|Sutter Union High|http://www.sutterhigh.k12.ca.us
+51714560000000|Active|Sutter|Winship-Robbins|http://winship-robbins.sutter.k12.ca.us
+51714640000000|Active|Sutter|Yuba City Unified|http://www.ycusd.k12.ca.us
+51746330000000|Active|Sutter|Tri-County ROP|No Data
+52105200000000|Active|Tehama|Tehama County Department of Education|http://www.tehamaschools.org
+52714720000000|Active|Tehama|Antelope Elementary|http://aesd-ca.schoolloop.com
+52714800000000|Closed|Tehama|Bend Elementary|http://www.bendschool.org
+52714980000000|Active|Tehama|Corning Union Elementary|http://www.corningelementary.org
+52715060000000|Active|Tehama|Corning Union High|http://www.corninghs.org/corninghsd/site/default.asp
+52715140000000|Active|Tehama|Elkins Elementary|http://elkinsschoolca.org
+52715220000000|Active|Tehama|Evergreen Union|http://www.evergreenusd.com
+52715300000000|Active|Tehama|Flournoy Union Elementary|http://www.flournoyschool.org
+52715480000000|Active|Tehama|Gerber Union Elementary|http://www.gerberschool.org
+52715550000000|Active|Tehama|Kirkwood Elementary|http://www.kirkwoodschoolca.org
+52715630000000|Active|Tehama|Lassen View Union Elementary|http://www.lassenview.org
+52715710000000|Active|Tehama|Los Molinos Unified|http://www.lmusd.net
+52715890000000|Closed|Tehama|Manton Joint Union Elementary|http://www.mantonschoolca.org
+52716050000000|Closed|Tehama|Mineral Elementary|http://www.tcde.tehama.k12.ca.us/mineralesd.html
+52716130000000|Closed|Tehama|Plum Valley Elementary|http://www.plumvalleyschool.org
+52716210000000|Active|Tehama|Red Bluff Union Elementary|http://www.rbuesd.org
+52716390000000|Active|Tehama|Red Bluff Joint Union High|http://www.tcde.tehama.k12.ca.us/redbluffjuhsd.html
+52716470000000|Active|Tehama|Reeds Creek Elementary|http://www.reedscreek.org
+52716540000000|Active|Tehama|Richfield Elementary|http://www.richfieldschool.org
+52743100000000|Active|Tehama|Tehama County ROP|No Data
+53105380000000|Active|Trinity|Trinity County Office of Education|http://www.tcoek12.org
+53716620000000|Active|Trinity|Burnt Ranch Elementary|http://www.bresd.org
+53716700000000|Active|Trinity|Coffee Creek Elementary|http://www.coffeecreekesd.org
+53716880000000|Closed|Trinity|Cox Bar Elementary|http://www.tcoe.trinity.k12.ca.us/~cb
+53716960000000|Active|Trinity|Douglas City Elementary|http://www.tcoe.trinity.k12.ca.us/~dc
+53717040000000|Merged|Trinity|Hayfork Valley Union Elementary|No Data
+53717120000000|Closed|Trinity|Hoaglin-Zenia Union Elementary|No Data
+53717200000000|Merged|Trinity|Hyampom Elementary|No Data
+53717380000000|Active|Trinity|Junction City Elementary|http://www.junctioncityschool.org
+53717460000000|Active|Trinity|Lewiston Elementary|http://www.lewistonesd.com
+53717530000000|Closed|Trinity|Mad River Joint Elementary|No Data
+53717610000000|Active|Trinity|Trinity Center Elementary|http://www.trinitycenterschool.org
+53717790000000|Merged|Trinity|Trinity Union High|http://www.trinitywolves.org
+53717870000000|Merged|Trinity|Weaverville Elementary|http://www.tcoe.trinity.k12.ca.us/~weslab/wespage.htm
+53738330000000|Active|Trinity|Southern Trinity Joint Unified|http://www.stjusd.org
+53750280000000|Active|Trinity|Mountain Valley Unified|http://www.mvusd.us
+53765130000000|Active|Trinity|Trinity Alps Unified|http://www.tausd.org
+54105460000000|Active|Tulare|Tulare County Office of Education|http://www.tcoe.org
+54717950000000|Active|Tulare|Allensworth Elementary|http://www.tcoe.org/districts/allensworth.shtm
+54718030000000|Active|Tulare|Alpaugh Unified|http://www.alpaughusd.com
+54718110000000|Active|Tulare|Alta Vista Elementary|http://www.altavistaesd.org
+54718290000000|Active|Tulare|Buena Vista Elementary|No Data
+54718370000000|Active|Tulare|Burton Elementary|http://www.burtonschools.org
+54718450000000|Closed|Tulare|Citrus South Tule Elementary|http://www.tcoe.org/districts/citrussouthtule.shtm
+54718520000000|Active|Tulare|Columbine Elementary|http://www.tcoe.k12.ca.us/districts/columbine.shtm
+54718600000000|Active|Tulare|Cutler-Orosi Joint Unified|http://www.cojusd.org
+54718780000000|Merged|Tulare|Dinuba Elementary|No Data
+54718860000000|Merged|Tulare|Dinuba Joint Union High|No Data
+54718940000000|Active|Tulare|Ducor Union Elementary|http://ducorschool.com
+54719020000000|Active|Tulare|Earlimart Elementary|http://www.earlimart.k12.ca.us
+54719100000000|Closed|Tulare|Exeter Union Elementary|http://www.exeter.k12.ca.us/
+54719280000000|Closed|Tulare|Exeter Union High|http://www.exeter.k12.ca.us/
+54719360000000|Merged|Tulare|Farmersville Elementary|No Data
+54719440000000|Active|Tulare|Hope Elementary|http://www.hope-esd.org
+54719510000000|Active|Tulare|Hot Springs Elementary|http://www.tcoe.net/districts/hotsprings.shtm
+54719690000000|Active|Tulare|Kings River Union Elementary|http://www.kingsriverelementary.org
+54719850000000|Active|Tulare|Liberty Elementary|http://www.liberty.k12.ca.us
+54719930000000|Active|Tulare|Lindsay Unified|http://www.lindsay.k12.ca.us
+54720090000000|Active|Tulare|Monson-Sultana Joint Union Elementary|http://www.msschool.org
+54720170000000|Active|Tulare|Oak Valley Union Elementary|http://www.oakvalleyschool.org
+54720250000000|Active|Tulare|Outside Creek Elementary|http://www.tcoe.net/districts/outsidecreek.shtm
+54720330000000|Active|Tulare|Palo Verde Union Elementary|http://www.tcoe.org/districts/paloverde.shtm
+54720410000000|Active|Tulare|Pixley Union Elementary|http://www.pixley.k12.ca.us
+54720580000000|Active|Tulare|Pleasant View Elementary|http://www.pleasant-view.k12.ca.us
+54720660000000|Merged|Tulare|Porterville Elementary|No Data
+54720740000000|Merged|Tulare|Porterville Union High|No Data
+54720820000000|Active|Tulare|Richgrove Elementary|http://www.richgrove.org
+54720900000000|Active|Tulare|Rockford Elementary|http://www.tcoe.net/districts/rockford.shtm
+54721080000000|Active|Tulare|Saucelito Elementary|No Data
+54721160000000|Active|Tulare|Sequoia Union Elementary|http://www.tcoe.net/districts/sequoiaunion.shtm
+54721320000000|Active|Tulare|Springville Union Elementary|http://www.springvilleschool.org
+54721400000000|Active|Tulare|Stone Corral Elementary|http://www.tcoe.org/districts/stonecorral.shtm
+54721570000000|Active|Tulare|Strathmore Union Elementary|http://www.suesd.k12.ca.us
+54721650000000|Merged|Tulare|Strathmore Union High|No Data
+54721730000000|Active|Tulare|Sundale Union Elementary|http://www.sundaleschool.com
+54721810000000|Active|Tulare|Sunnyside Union Elementary|http://www.sunnysideunion.com
+54721990000000|Active|Tulare|Terra Bella Union Elementary|http://www.tbuesd.org
+54722070000000|Active|Tulare|Three Rivers Union Elementary|http://www.3rusd.org
+54722150000000|Active|Tulare|Tipton Elementary|http://www.tiptonschool.org
+54722230000000|Active|Tulare|Traver Joint Elementary|http://www.tcoe.org/districts/traver.shtm
+54722310000000|Active|Tulare|Tulare City|http://www.tcsdk8.org
+54722490000000|Active|Tulare|Tulare Joint Union High|http://www.tulare.k12.ca.us
+54722560000000|Active|Tulare|Visalia Unified|http://www.vusd.org
+54722640000000|Active|Tulare|Waukena Joint Union Elementary|http://www.tcoe.org/districts/waukena.shtm
+54722720000000|Closed|Tulare|Woodlake Union Elementary|http://www.tcoe.k12.ca.us/districts/woodlake.shtm
+54722800000000|Closed|Tulare|Woodlake Union High|http://www.tcoe.org/districts/woodlakehigh.shtm
+54722980000000|Active|Tulare|Woodville Union Elementary|http://www.tcoe.org/districts/woodville.shtm
+54741790000000|Closed|Tulare|Tulare County Organization for Vocational Education|http://www.tcove.org
+54753250000000|Active|Tulare|Farmersville Unified|http://www.farmersville.k12.ca.us
+54755230000000|Active|Tulare|Porterville Unified|http://www.portervilleschools.org
+54755310000000|Active|Tulare|Dinuba Unified|http://www.dinuba.k12.ca.us
+54767940000000|Active|Tulare|Woodlake Unified|http://www.w-usd.org
+54768360000000|Active|Tulare|Exeter Unified|No Data
+55105530000000|Active|Tuolumne|Tuolumne County Superintendent of Schools|http://www.tcsos.us
+55723060000000|Active|Tuolumne|Belleview Elementary|http://www.mybelleview.org
+55723140000000|Merged|Tuolumne|Big Oak Flat-Groveland Union Elementary|No Data
+55723300000000|Closed|Tuolumne|Chinese Camp Elementary|No Data
+55723480000000|Active|Tuolumne|Columbia Union|http://www.cusd49.com
+55723550000000|Active|Tuolumne|Curtis Creek Elementary|http://www.curtiscreekschool.com
+55723630000000|Active|Tuolumne|Jamestown Elementary|http://www.jespanthers.org
+55723710000000|Active|Tuolumne|Sonora Elementary|http://www.ses.k12.ca.us
+55723890000000|Active|Tuolumne|Sonora Union High|http://www.sonorahs.k12.ca.us
+55723970000000|Active|Tuolumne|Soulsbyville Elementary|http://www.soulsbyvilleschool.com
+55724050000000|Active|Tuolumne|Summerville Elementary|http://www.sumel.k12.ca.us
+55724130000000|Active|Tuolumne|Summerville Union High|http://www.summbears.net
+55724210000000|Active|Tuolumne|Twain Harte|http://www.twainharteschool.com
+55751840000000|Active|Tuolumne|Big Oak Flat-Groveland Unified|http://www.bigoakflatgrovelandusd.org
+56105610000000|Active|Ventura|Ventura County Office of Education|http://www.vcoe.org
+56724470000000|Active|Ventura|Briggs Elementary|http://www.briggsesd.org
+56724540000000|Active|Ventura|Fillmore Unified|http://www.fillmoreusd.org
+56724620000000|Active|Ventura|Hueneme Elementary|http://www.hueneme.org
+56724700000000|Active|Ventura|Mesa Union Elementary|http://www.mesaschool.org
+56724880000000|Merged|Ventura|Moorpark Union Elementary|No Data
+56724960000000|Merged|Ventura|Moorpark Memorial Union High|No Data
+56725040000000|Active|Ventura|Mupu Elementary|http://www.mupu.org
+56725120000000|Active|Ventura|Ocean View|http://www.oceanviewsd.org/
+56725200000000|Active|Ventura|Ojai Unified|http://www.ojaiusd.org
+56725380000000|Active|Ventura|Oxnard|http://www.oxnardsd.org
+56725460000000|Active|Ventura|Oxnard Union High|http://www.oxnardunion.org
+56725530000000|Active|Ventura|Pleasant Valley|http://www.pleasantvalleysd.org/
+56725610000000|Active|Ventura|Rio Elementary|http://www.rioschools.org
+56725790000000|Active|Ventura|Santa Clara Elementary|http://www.scesd.k12.ca.us
+56725870000000|Closed|Ventura|Santa Paula Elementary|http://www.spesd.org
+56725950000000|Closed|Ventura|Santa Paula Union High|http://www.spuhsd.k12.ca.us
+56726030000000|Active|Ventura|Simi Valley Unified|http://www.simi.k12.ca.us
+56726110000000|Active|Ventura|Somis Union|http://www.somisusd.org
+56726450000000|Closed|Ventura|Valley Oaks Union Elementary|No Data
+56726520000000|Active|Ventura|Ventura Unified|http://www.venturausd.org
+56737590000000|Active|Ventura|Conejo Valley Unified|http://www.conejousd.org
+56738740000000|Active|Ventura|Oak Park Unified|http://www.oakparkusd.org
+56739400000000|Active|Ventura|Moorpark Unified|http://www.mrpk.org
+56746170000000|Active|Ventura|Ventura County ROP|No Data
+56768280000000|Active|Ventura|Santa Paula Unified|http://www.santapaulaunified.org
+57105790000000|Active|Yolo|Yolo County Office of Education|http://www.ycoe.org
+57726780000000|Active|Yolo|Davis Joint Unified|http://www.djusd.net
+57726860000000|Active|Yolo|Esparto Unified|http://www.eusdk12.org
+57726940000000|Active|Yolo|Washington Unified|http://www.wusd.k12.ca.us
+57727020000000|Active|Yolo|Winters Joint Unified|http://www.wintersjusd.org
+57727100000000|Active|Yolo|Woodland Joint Unified|http://www.wjusd.org
+57746250000000|Active|Yolo|Yolo County ROP|No Data
+57766950000000|Closed|Yolo|SBE - California College, Career & Technical Education Center|http://www.ccctec.org
+58105870000000|Active|Yuba|Yuba County Office of Education|http://www.yubacoe.org
+58727280000000|Active|Yuba|Camptonville Elementary|http://www.cville.k12.ca.us
+58727360000000|Active|Yuba|Marysville Joint Unified|http://www.mjusd.com
+58727440000000|Active|Yuba|Plumas Lake Elementary|http://www.plusd.org
+58727510000000|Active|Yuba|Wheatland|http://www.wheatlandsd.com/
+58727690000000|Active|Yuba|Wheatland Union High|http://www.wheatlandhigh.org
