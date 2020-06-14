@@ -13,7 +13,7 @@ function crawlSite (initialUrl, i, l) {
     Object.assign(crawl, {
       // interval: 100,
       maxConcurrency: 5,
-      maxDepth: 20
+      maxDepth: 10
     })
 
     const domain = url.parse(initialUrl).hostname
@@ -81,8 +81,8 @@ const rows = textRows.map(row => {
 })
 
 ;(async () => {
-  const BATCH_SIZE = 100
-  for (let i = 1200; i < rows.length; i += BATCH_SIZE) {
+  const BATCH_SIZE = 1
+  for (let i = 0; i < rows.length; i += BATCH_SIZE) {
     const batch = []
     for (let j = 0; j < BATCH_SIZE && i + j < rows.length; ++j) {
       const row = rows[i + j]
